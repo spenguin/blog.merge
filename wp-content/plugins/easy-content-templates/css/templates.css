@@ -1,0 +1,8 @@
+#mtb_ect_templates .inside .template-selection select {
+    box-sizing: border-box;
+    width: 100%;
+}
+#mtb_ect_templates .inside .template-parts {}
+#mtb_ect_templates .inside .template-load {
+    text-align: right;
+}

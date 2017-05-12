@@ -1,0 +1,592 @@
+<?php
+ob_start();
+
+/*
+ * All the functions for the frontend side of WordPress live here
+ *
+ ********************************************************************************/
+
+/*
+ * Loading all the classes and functions files
+ *
+ */
+
+if(is_admin() && (!defined('DOING_AJAX') || !DOING_AJAX)) {
+
+    require 'functions/functions-admin.php';
+
+} else {
+    require 'functions/functions-deprecated.php';
+
+    require 'functions/functions-frontend.php';
+    require 'functions/shortcodes.php';
+
+
+    require 'classes/walker-nav.php';
+    require 'classes/default-hooks.php';
+    require 'classes/custom-hooks.php';
+
+}
+add_theme_support( 'woocommerce' );
+/*
+ * Register widgetized area and update sidebar with default widgets
+ *
+ */
+function pd_widgets_init() {
+    $pd_options = get_option('peadig');
+
+    if(empty($before_well)) {
+        $before_well='';
+    }
+
+    if(empty($sidebar_well)) {
+        $sidebar_well='';
+    }
+
+    if(!empty($pd_options['sidebar_well'])) {
+        $before_well = ' well';
+    }
+
+    $before_sidebar = '<aside id="%1$s" class="widget col-lg-12 %2$s' . $before_well . '">';
+
+    register_sidebar(array(
+        'name' => __('Sidebar 1', 'peadig'),
+        'id' => 'sidebar-1',
+        'before_widget' => $before_sidebar,
+        'after_widget' => "</aside>",
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>'
+    ));
+
+    if(!empty($pd_options['sidebar_well'])) {
+        $sidebar_well = ' well';
+    }
+
+    $before_sidebar = '<aside id="%1$s" class="widget %2$s' . $sidebar_well . '">';
+
+    register_sidebar(array(
+        'name' => __('Sidebar 2', 'peadig'),
+        'id' => 'sidebar-2',
+        'description' => __('An optional second sidebar area', 'peadig'),
+        'before_widget' => $before_sidebar,
+        'after_widget' => "</aside>",
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>'
+    ));
+
+    if(!empty($pd_options['footer_well'])) {
+        $footer_well = ' well';
+    } else {
+        $footer_well = '';
+    }
+
+    $before_footer = '<div id="%1$s" class="widget %2$s' . $footer_well . '">';
+
+    register_sidebar(array(
+        'name' => __('Footer', 'peadig'),
+        'id' => 'footer',
+        'description' => __('You can set column spans here (if you set it in Peadig) so you can choose how wide the widget is', 'peadig'),
+        'before_widget' => $before_footer,
+        'after_widget' => "</div>",
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
+    ));
+
+    if(!empty($pd_options['sidebar_above_content'])) {
+        register_sidebar(array(
+            'name' => __('Row Above Content', 'peadig'),
+            'id' => 'above-content',
+            'description' => __('An optional row above the main content', 'peadig'),
+            'before_widget' => $before_sidebar,
+            'after_widget' => "</aside>",
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>'
+        ));
+    }
+
+    if(!empty($pd_options['sidebar_below_content'])) {
+        register_sidebar(array(
+            'name' => __('Row Below Content', 'peadig'),
+            'id' => 'below-content',
+            'description' => __('An optional row below the main content', 'peadig'),
+            'before_widget' => $before_sidebar,
+            'after_widget' => "</aside>",
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>'
+        ));
+    }
+}
+add_action('init', 'pd_widgets_init');
+/*
+ * Add in widget options functionality
+ *
+ */
+function pd_colspan_widget_extend( $instance, $widget ) {
+   $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'text' => '', 'float' => 'none') );
+
+    if(!isset($instance['colspan']) ){
+        $instance['colspan'] = 3;
+    }
+//    if(!isset($instance['colspan']) ) {
+        
+        $sidebars = wp_get_sidebars_widgets();
+        $pd_options = get_option('peadig');
+        if(in_array($widget->id, $sidebars['footer']) && empty($pd_options['even_footer_cols'])){
+
+                echo "<p class=\"show-if-sidebar-3\">\n";
+                echo "\t<label for='widget-{$widget->id_base}-{$widget->number}-colspan'>Column Span:</label> \n";
+                ?>
+                <select name="widget-<?php echo $widget->id_base.'['.$widget->number.'][colspan]'; ?>" id="widget-<?php echo $widget->id_base.'-'.$widget->number; ?>-colspan">
+                    <option>Select:</option>
+                    <option<?php if($instance['colspan']=='1') {
+                        echo ' selected';
+                    } ?> value="1">1</option>
+                    <option<?php if($instance['colspan']=='2') {
+                        echo ' selected';
+                    } ?> value="2">2</option>
+                    <option<?php if($instance['colspan']=='3') {
+                        echo ' selected';
+                    } ?> value="3">3</option>
+                    <option<?php if($instance['colspan']=='4') {
+                        echo ' selected';
+                    } ?> value="4">4</option>
+                    <option<?php if($instance['colspan']=='5') {
+                        echo ' selected';
+                    } ?> value="5">5</option>
+                    <option<?php if($instance['colspan']=='6') {
+                        echo ' selected';
+                    } ?> value="6">6</option>
+                    <option<?php if($instance['colspan']=='7') {
+                        echo ' selected';
+                    } ?> value="7">7</option>
+                    <option<?php if($instance['colspan']=='8') {
+                        echo ' selected';
+                    } ?> value="8">8</option>
+                    <option<?php if($instance['colspan']=='9') {
+                        echo ' selected';
+                    } ?> value="9">9</option>
+                    <option<?php if($instance['colspan']=='10') {
+                        echo ' selected';
+                    } ?> value="10">10</option>
+                    <option<?php if($instance['colspan']=='11') {
+                        echo ' selected';
+                    } ?> value="11">11</option>
+                    <option<?php if($instance['colspan']=='12') {
+                        echo ' selected';
+                    } ?> value="12">12</option>
+                </select>
+                <?php
+                echo "</p>\n";
+
+            }
+ //   }
+    return $instance;
+}
+add_filter('widget_form_callback', 'pd_colspan_widget_extend', 10, 2);
+
+function peadig_colspan_widget_update( $instance, $new_instance ) {
+    $instance['colspan'] = $new_instance['colspan'];
+    return $instance;
+}
+add_filter( 'widget_update_callback', 'peadig_colspan_widget_update', 10, 2 );
+
+function peadig_class_widget_form($t,$return,$instance){
+    $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'text' => '', 'float' => 'none') );
+
+    if(!isset($instance['classes']) ){
+        $instance['classes'] = null;
+    }
+    ?>
+    <label for="<?php echo $t->get_field_id('classes'); ?>">Additional CSS classes <small>separated by spaces</small><br /></label>
+    <input type="text" name="<?php echo $t->get_field_name('classes'); ?>" id="<?php echo $t->get_field_id('classes'); ?>" value="<?php echo $instance['classes'];?>" class="widefat" />
+    <?php
+    $retrun = null;
+    return array($t,$return,$instance);
+}
+add_action('in_widget_form', 'peadig_class_widget_form',11,3);
+
+function peadig_class_widget_form_update($instance, $new_instance){
+    $instance['classes'] = strip_tags($new_instance['classes']);
+    return $instance;
+}
+add_filter('widget_update_callback', 'peadig_class_widget_form_update',11,3);
+
+
+
+
+function peadig_class_sidebar_params($params){
+    global $wp_registered_widgets;
+    $widget_id = $params[0]['widget_id'];
+    $widget_obj = $wp_registered_widgets[$widget_id];
+    $widget_opt = get_option($widget_obj['callback'][0]->option_name);
+    $widget_num = $widget_obj['params'][0]['number'];
+
+    if(isset($widget_opt[$widget_num]['width'])){
+        if(isset($widget_opt[$widget_num]['float'])){
+            $float = $widget_opt[$widget_num]['float'];
+        } else {
+            $float = '';
+        }
+    }
+
+    return $params;
+}
+add_filter('dynamic_sidebar_params', 'peadig_class_sidebar_params');
+
+
+function peadig_dynamic_sidebar_params( $params ) {
+    global $wp_registered_widgets;
+    $pd_options	= get_option( 'peadig' );
+
+    $widget_id	= $params[0]['widget_id'];
+    $widget_obj	= $wp_registered_widgets[$widget_id];
+    $widget_opt	= get_option($widget_obj['callback'][0]->option_name);
+    $widget_num	= $widget_obj['params'][0]['number'];
+
+    if(isset($widget_opt[$widget_num]['classes']) && !empty($widget_opt[$widget_num]['classes'])){
+        $params[0]['before_widget'] = preg_replace( '/class="/', "class=\"{$widget_opt[$widget_num]['classes']} ", $params[0]['before_widget'], 1 );
+    }
+
+    if(empty($pd_options['even_footer_cols'])) {
+        if(isset($widget_opt[$widget_num]['colspan']) && !empty($widget_opt[$widget_num]['colspan']) ){
+            $params[0]['before_widget'] = preg_replace( '/class="/', "class=\"col-lg-{$widget_opt[$widget_num]['colspan']} col-md-{$widget_opt[$widget_num]['colspan']} col-sm-{$widget_opt[$widget_num]['colspan']} ", $params[0]['before_widget'], 1 );
+
+        }
+
+    } else {
+
+        $sidebar_id = $params[0]['id'];
+        if($sidebar_id == 'footer' || $sidebar_id == 'below-content' || $sidebar_id == 'above-content') {
+            $total_widgets              = wp_get_sidebars_widgets();
+            $sidebar_widgets            = count($total_widgets[$sidebar_id]);
+            $params[0]['before_widget'] = str_replace('class="', 'class="col-lg-' . floor(12 / $sidebar_widgets) . ' col-md-' . floor(12 / $sidebar_widgets) . ' col-sm-' . floor(12 / $sidebar_widgets) . ' ', $params[0]['before_widget']);
+        }
+    }
+
+    return $params;
+}
+add_filter( 'dynamic_sidebar_params', 'peadig_dynamic_sidebar_params' );
+
+/*
+ * Load Admin Css
+ *
+ */
+
+function load_custom_wp_admin_style(){
+    wp_register_style('custom_wp_admin_css', get_template_directory_uri() . '/css/admin-style.css', false, '1.0.0');
+    wp_enqueue_style('custom_wp_admin_css');
+}
+add_action('admin_enqueue_scripts', 'load_custom_wp_admin_style');
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Add Peadig Options Link to Admin Toolbar
+ *
+ */
+
+function add_peadig_to_adminbar($wp_admin_bar) {
+    $url  = admin_url() . "admin.php?page=peadig_options";
+    $args = array(
+        'id' => 'peadig-link',
+        'title' => __('<span style="margin-right: 5px;"><img src="' . get_template_directory_uri() . '/img/icon-16x16.png" width="16" height="16"></span> Peadig'),
+        'href' => $url,
+        'meta' => array(
+            'class' => 'peadig-home-page'
+        )
+    );
+    $wp_admin_bar->add_node($args);
+}
+add_action('admin_bar_menu', 'add_peadig_to_adminbar', 999);
+
+add_theme_support('post-thumbnails');
+set_post_thumbnail_size(9999, 300, true);
+register_nav_menu('primary', 'Primary Menu');
+
+/*
+ * Excerpt with read more at the end
+ *
+ */
+function peadig_excerpt($more) {
+    global $post;
+    return ' <a class="moretag" href="'. get_permalink($post->ID) . '">Read more...</a>';
+}
+add_filter('excerpt_more', 'peadig_excerpt');
+
+/*
+ * Auto Updater settings
+ *
+ */
+
+define( 'PD_STORE_URL', 'http://peadig.com' ); // add your own unique prefix to prevent conflicts
+define( 'PD_THEME_NAME', 'Peadig' ); // add your own unique prefix to prevent conflicts
+
+if(!class_exists( 'EDD_SL_Theme_Updater' ) ) {
+    include( dirname( __FILE__ ) . '/EDD_SL_Theme_Updater.php' );
+}
+$test_license = trim( get_option( 'peadig_license_key' ) );
+
+$edd_updater = new EDD_SL_Theme_Updater( array(
+        'remote_api_url' 	=> PD_STORE_URL, 	// Our store URL that is running EDD
+        'version' 			=> '1.3.6', 		// The current theme version we are running
+        'license' 			=> $test_license, 	// The license key (used get_option above to retrieve from DB)
+        'item_name' 		=> PD_THEME_NAME,	// The name of this theme
+        'author'			=> PD_THEME_NAME	// The author's name
+    )
+);
+function peadig_theme_license_menu() {
+    add_theme_page( 'Peadig License', 'Peadig License', 'manage_options', 'peadig-license', 'peadig_theme_license_page' );
+}
+
+add_action('admin_menu', 'peadig_theme_license_menu');
+
+
+$license    = get_option( 'peadig_license_key' );
+$status     = get_option( 'peadig_license_status' );
+
+    if ($status == 'valid' && !empty($license)) {
+require_once(dirname(__FILE__).'/peadig-options.php');
+}
+function peadig_register_option() {
+    // creates our settings in the options table
+    register_setting('peadig_theme_license', 'peadig_license_key', 'peadig_sanitize_license' );
+}
+add_action('admin_init', 'peadig_register_option');
+
+function peadig_sanitize_license( $new ) {
+    $old = get_option( 'peadig_license_key' );
+    if($old && $old != $new ) {
+        delete_option( 'peadig_license_status' ); // new license has been entered, so must reactivate
+    }
+    return $new;
+}
+function peadig_theme_activate_license() {
+    if( isset( $_POST['peadig_license_activate'] ) ) {
+        if( ! check_admin_referer( 'peadig_nonce', 'peadig_nonce' ) )
+            return;
+        $license = trim( get_option( 'peadig_license_key' ) );
+        $api_params = array(
+            'edd_action'=> 'activate_license',
+            'license'   => $license,
+            'item_name' => urlencode( PD_THEME_NAME ) // the name of our product in EDD
+        );
+        $response = wp_remote_get( add_query_arg( $api_params, PD_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
+        if ( is_wp_error( $response ) )
+            return false;
+        $license_data = json_decode( wp_remote_retrieve_body( $response ) );
+        update_option( 'peadig_license_status', $license_data->license );
+    }
+}
+add_action('admin_init', 'peadig_theme_activate_license');
+
+
+function peadig_deactivate_license() {
+
+    // listen for our activate button to be clicked
+    if(isset( $_POST['peadig_license_deactivate'] ) ) {
+
+        // run a quick security check
+        if(! check_admin_referer( 'peadig_nonce', 'peadig_nonce' ) )
+            return; // get out if we didn't click the Activate button
+
+        // retrieve the license from the database
+        $license = trim( get_option( 'peadig_license_key' ) );
+
+
+        // data to send in our API request
+        $api_params = array(
+            'edd_action'=> 'deactivate_license',
+            'license' 	=> $license,
+            'item_name' => urlencode( PD_THEME_NAME ) // the name of our product in EDD
+        );
+
+        // Call the custom API.
+        $response = wp_remote_get( add_query_arg( $api_params, PD_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
+
+        // make sure the response came back okay
+        if(is_wp_error( $response ) )
+            return false;
+
+        // decode the license data
+        $license_data = json_decode( wp_remote_retrieve_body( $response ) );
+
+        // $license_data->license will be either "deactivated" or "failed"
+        if($license_data->license == 'deactivated' )
+            delete_option( 'peadig_license_status' );
+
+    }
+}
+add_action('admin_init', 'peadig_deactivate_license');
+
+
+
+/*
+ * Check for valid license
+ *
+ */
+
+function _v() {
+
+    global $wp_version;
+
+    $license = trim( get_option( 'peadig_license_key' ) );
+
+    $api_params = array(
+        'edd_action' => 'check_license',
+        'license' => $license,
+        'item_name' => urlencode( PD_THEME_NAME )
+    );
+
+    $response = wp_remote_get( add_query_arg( $api_params, PD_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
+
+    if(is_wp_error( $response ) )
+        return false;
+
+    $license_data = json_decode( wp_remote_retrieve_body( $response ) );
+
+    if($license_data->license == 'valid' ) {
+        echo 'valid'; exit;
+        // this license is still valid
+    } else {
+        echo 'invalid'; exit;
+        // this license is no longer valid
+    }
+}
+function peadig_theme_license_page() {
+    $license    = get_option( 'peadig_license_key' );
+    $status     = get_option( 'peadig_license_status' );
+    ?>
+    <div class="wrap">
+    <h2><?php _e('Peadig License Options'); ?></h2>
+        <form method="post" action="options.php">
+
+            <?php settings_fields('peadig_theme_license'); ?>
+
+            <table class="form-table">
+                <tbody>
+                    <tr valign="top">
+                        <th scope="row" valign="top">
+                            <?php _e('License Key'); ?>
+                        </th>
+                        <td>
+                            <input id="peadig_license_key" name="peadig_license_key" type="text" value="<?php esc_attr_e( $license ); ?>" size="50" />
+
+                                <?php if( $status !== false && $status == 'valid') { ?>
+                                    <?php wp_nonce_field( 'peadig_nonce', 'peadig_nonce' ); ?>
+                                    <input type="submit" class="button-secondary" name="peadig_license_deactivate" value="<?php _e('Deactivate License'); ?>"/><br />
+                            <label class="description" for="peadig_license_key">Your key is active. You can now use Peadig and receive updates :)</label>
+                                <?php } else {
+                                    wp_nonce_field( 'peadig_nonce', 'peadig_nonce' ); 
+                                        if( $license == '') {
+                                    ?>
+                                    <input type="submit" class="button-secondary" value="<?php _e('Step 1: Store License'); ?>"/><br />
+                            <?php } else { ?>
+                            <input type="submit" class="button-primary" name="peadig_license_activate" value="<?php _e('Step 2: Activate License'); ?>"/><br />
+                                <?php }
+                                } ?>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+<?php
+}
+
+/*
+ * Auto defines menu if one has already been set
+ *
+ */
+
+function peadig_menu_fix() {
+
+    /*
+    register_nav_menus( array(
+        'peadig_nav' => 'peadig'
+    ) );
+
+    wp_nav_menu( array(
+        'menu' => 'peadig_nav'
+    ) );
+
+    $old_theme = get_option( 'theme_switched' );
+    $old_theme_mods = get_option("theme_mods_{$old_theme}");
+    $old_theme_navs = $old_theme_mods['nav_menu_locations'];
+    $new_theme_navs = get_theme_mod( 'nav_menu_locations' );
+
+    if(!$new_theme_navs) {
+         $new_theme_locations = get_registered_nav_menus();
+
+        foreach ($new_theme_locations as $location => $description ) {
+             $new_theme_navs[$location] = $old_theme_navs[$location];
+        }
+
+        set_theme_mod( 'nav_menu_locations', $new_theme_navs );
+
+    }
+    */
+}
+
+add_action( 'after_switch_theme',  'peadig_menu_fix' );
+
+
+
+
+add_filter('upload_mimes','add_custom_mime_types');
+    function add_custom_mime_types($mimes){
+        return array_merge($mimes,array (
+            'less' => 'text/less',
+            ));
+}
+
+
+// Replaces the excerpt "more" text by a link
+function pd_excerpt_more($more) {
+    $pd_options = get_option('peadig');
+    if (!empty($pd_options['readmore'])) {
+    global $post;
+    return ' <a class="moretag" href="'. get_permalink($post->ID) . '">'.$pd_options['readmore'].'</a>';
+}
+}
+add_filter('excerpt_more', 'pd_excerpt_more');
+
+
+
+/*
+ * Auto activates the current primary menu on activation of peadig
+ * TODO validate this works
+ */
+
+function peadig_theme_switch() {
+    $theme = get_current_theme();
+
+    if($theme == 'peadig'){
+
+        $menu_slug = 'primary';
+        $locations = get_nav_menu_locations();
+
+        if(isset($locations[$args->theme_location])) {
+            $menu_id = $locations[$args->theme_location];
+        }
+
+        $mods = get_option("mods_$theme");
+        $key = key($mods['nav_menu_locations']);
+        $mods['nav_menu_locations'][$key] = $menu_id;
+        update_option("mods_$theme", $mods);
+
+    }
+}
+add_action( 'after_switch_theme',  'peadig_theme_switch' );
+
+function my_force_ssl() {
+    return true;
+}
+add_filter('force_ssl', 'my_force_ssl', 10, 3);

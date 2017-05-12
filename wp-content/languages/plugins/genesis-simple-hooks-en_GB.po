@@ -1,0 +1,349 @@
+# Translation of Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-27 17:45:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: admin.php:214 admin.php:240 admin.php:274 admin.php:300 admin.php:334
+#: admin.php:365 admin.php:416 admin.php:470 admin.php:486 admin.php:508
+#: admin.php:566 admin.php:588
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#. Author URI of the plugin/theme
+msgid "http://www.nathanrice.net/"
+msgstr "http://www.nathanrice.net/"
+
+#. Author of the plugin/theme
+msgid "Nathan Rice"
+msgstr "Nathan Rice"
+
+#: admin.php:195
+msgid "Comment Form Hooks"
+msgstr "Comment Form Hooks"
+
+#: admin.php:192
+msgid "Comment List Hooks"
+msgstr "Comment List Hooks"
+
+#: admin.php:184
+msgid "Content Hooks"
+msgstr "Content Hooks"
+
+#: admin.php:182
+msgid "Document Hooks"
+msgstr "Document Hooks"
+
+#: admin.php:188
+msgid "Entry Hooks"
+msgstr "Entry Hooks"
+
+#: functions.php:66
+msgid "Execute PHP on this hook?"
+msgstr "Execute PHP on this hook?"
+
+#: functions.php:65
+msgid "Execute Shortcodes on this hook?"
+msgstr "Execute Shortcodes on this hook?"
+
+#: admin.php:197
+msgid "Footer Hooks"
+msgstr "Footer Hooks"
+
+#: admin.php:30
+msgid "Genesis - Simple Hooks"
+msgstr "Genesis - Simple Hooks"
+
+#. Plugin Name of the plugin/theme
+msgid "Genesis Simple Hooks"
+msgstr "Genesis Simple Hooks"
+
+#. Description of the plugin/theme
+msgid "Genesis Simple Hooks allows you easy access to the 50+ Action Hooks in the Genesis Theme."
+msgstr "Genesis Simple Hooks allows you easy access to the 50+ Action Hooks in the Genesis Theme."
+
+#: admin.php:183
+msgid "Header Hooks"
+msgstr "Header Hooks"
+
+#: functions.php:45
+msgid "Hook"
+msgstr "Hook"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.studiopress.com/plugins/simple-hooks"
+msgstr "http://www.studiopress.com/plugins/simple-hooks"
+
+#: admin.php:185
+msgid "Loop Hooks"
+msgstr "Loop Hooks"
+
+#: admin.php:193
+msgid "Ping List Hooks"
+msgstr "Ping List Hooks"
+
+#: admin.php:190
+msgid "Post/Page Hooks"
+msgstr "Post/Page Hooks"
+
+#: admin.php:196
+msgid "Sidebar Hooks"
+msgstr "Sidebar Hooks"
+
+#: admin.php:31
+msgid "Simple Hooks"
+msgstr "Simple Hooks"
+
+#: admin.php:194
+msgid "Single Comment Hooks"
+msgstr "Single Comment Hooks"
+
+#: plugin.php:48
+msgid "Sorry, you cannot run Simple Hooks without WordPress %s and <a href=\"%s\">Genesis %s</a>, or greater."
+msgstr "Sorry, you cannot run Simple Hooks without WordPress %s and <a href=\"%s\">Genesis %s</a>, or greater."
+
+#: admin.php:362
+msgid "This hook executes after each entry in all loop blocks (outside the entry markup element)."
+msgstr "This hook executes after each entry in all loop blocks (outside the entry markup element)."
+
+#: admin.php:378
+msgid "This hook executes after each post in all loop blocks (outside the <code>post_class()</code> div)."
+msgstr "This hook executes after each post in all loop blocks (outside the <code>post_class()</code> div)."
+
+#: admin.php:330
+msgid "This hook executes after the <code>else :</code> statement in all loop blocks. The content attached to this hook will only display if there are no posts available when a loop is executed."
+msgstr "This hook executes after the <code>else :</code> statement in all loop blocks. The content attached to this hook will only display if there are no posts available when a loop is executed."
+
+#: admin.php:324
+msgid "This hook executes after the <code>endwhile;</code> statement."
+msgstr "This hook executes after the <code>endwhile;</code> statement."
+
+#: admin.php:357
+msgid "This hook executes after the entry content. By Default, it outputs entry meta information."
+msgstr "This hook executes after the entry content. By Default, it outputs entry meta information."
+
+#: admin.php:342
+msgid "This hook executes before each entry in all loop blocks (outside the entry markup element)."
+msgstr "This hook executes before each entry in all loop blocks (outside the entry markup element)."
+
+#: admin.php:373
+msgid "This hook executes before each post in all loop blocks (outside the <code>post_class()</code> div)."
+msgstr "This hook executes before each post in all loop blocks (outside the <code>post_class()</code> div)."
+
+#: admin.php:347
+msgid "This hook executes before the entry content. By default, it outputs the entry title and meta information."
+msgstr "This hook executes before the entry content. By default, it outputs the entry title and meta information."
+
+#: admin.php:222
+msgid "This hook executes between the main document <code>&lt;title&gt;&lt;/title&gt;</code> tags."
+msgstr "This hook executes between the main document <code>&lt;title&gt;&lt;/title&gt;</code> tags."
+
+#: admin.php:313
+msgid "This hook executes both default and custom loops."
+msgstr "This hook executes both default and custom loops."
+
+#: admin.php:319
+msgid "This hook executes immediately after all loop blocks.<br /> Therefore, this hook falls outside the loop, and cannot execute functions that require loop template tags or variables."
+msgstr "This hook executes immediately after all loop blocks.<br /> Therefore, this hook falls outside the loop, and cannot execute functions that require loop template tags or variables."
+
+#: admin.php:483
+msgid "This hook executes immediately after each individual comment (inside the <code>.comment</code> list item)."
+msgstr "This hook executes immediately after each individual comment (inside the <code>.comment</code> list item)."
+
+#: admin.php:395
+msgid "This hook executes immediately after each post/page title within the loop."
+msgstr "This hook executes immediately after each post/page title within the loop."
+
+#: admin.php:412
+msgid "This hook executes immediately after the <code>genesis_post_content</code> hook for each post/page within the loop."
+msgstr "This hook executes immediately after the <code>genesis_post_content</code> hook for each post/page within the loop."
+
+#: admin.php:553
+msgid "This hook executes immediately after the alternate sidebar column."
+msgstr "This hook executes immediately after the alternate sidebar column."
+
+#: admin.php:563
+msgid "This hook executes immediately after the alternate sidebar widget area."
+msgstr "This hook executes immediately after the alternate sidebar widget area."
+
+#: admin.php:505
+msgid "This hook executes immediately after the comment form."
+msgstr "This hook executes immediately after the comment form."
+
+#: admin.php:441
+msgid "This hook executes immediately after the comments block."
+msgstr "This hook executes immediately after the comments block."
+
+#: admin.php:297
+msgid "This hook executes immediately after the content column."
+msgstr "This hook executes immediately after the content column."
+
+#: admin.php:287
+msgid "This hook executes immediately after the div block that wraps the content and the primary sidebar."
+msgstr "This hook executes immediately after the div block that wraps the content and the primary sidebar."
+
+#: admin.php:585
+msgid "This hook executes immediately after the footer."
+msgstr "This hook executes immediately after the footer."
+
+#: admin.php:259
+msgid "This hook executes immediately after the header."
+msgstr "This hook executes immediately after the header."
+
+#: admin.php:232
+msgid "This hook executes immediately after the opening <code>&lt;body&gt;</code> tag."
+msgstr "This hook executes immediately after the opening <code>&lt;body&gt;</code> tag."
+
+#: admin.php:467
+msgid "This hook executes immediately after the pings block."
+msgstr "This hook executes immediately after the pings block."
+
+#: admin.php:527
+msgid "This hook executes immediately after the primary sidebar column."
+msgstr "This hook executes immediately after the primary sidebar column."
+
+#: admin.php:537
+msgid "This hook executes immediately after the primary sidebar widget area."
+msgstr "This hook executes immediately after the primary sidebar widget area."
+
+#: admin.php:308
+msgid "This hook executes immediately before all loop blocks.<br /> Therefore, this hook falls outside the loop, and cannot execute functions that require loop template tags or variables."
+msgstr "This hook executes immediately before all loop blocks.<br /> Therefore, this hook falls outside the loop, and cannot execute functions that require loop template tags or variables."
+
+#: admin.php:478
+msgid "This hook executes immediately before each individual comment (inside the <code>.comment</code> list item)."
+msgstr "This hook executes immediately before each individual comment (inside the <code>.comment</code> list item)."
+
+#: admin.php:384
+msgid "This hook executes immediately before each post/page title within the loop."
+msgstr "This hook executes immediately before each post/page title within the loop."
+
+#: admin.php:400
+msgid "This hook executes immediately before the <code>genesis_post_content</code> hook for each post/page within the loop."
+msgstr "This hook executes immediately before the <code>genesis_post_content</code> hook for each post/page within the loop."
+
+#: admin.php:542
+msgid "This hook executes immediately before the alternate sidebar column."
+msgstr "This hook executes immediately before the alternate sidebar column."
+
+#: admin.php:558
+msgid "This hook executes immediately before the alternate sidebar widget area."
+msgstr "This hook executes immediately before the alternate sidebar widget area."
+
+#: admin.php:211 admin.php:237
+msgid "This hook executes immediately before the closing <code>&lt;/body&gt;</code> tag."
+msgstr "This hook executes immediately before the closing <code>&lt;/body&gt;</code> tag."
+
+#: admin.php:205
+msgid "This hook executes immediately before the closing <code>&lt;/head&gt;</code> tag."
+msgstr "This hook executes immediately before the closing <code>&lt;/head&gt;</code> tag."
+
+#: admin.php:494
+msgid "This hook executes immediately before the comment form."
+msgstr "This hook executes immediately before the comment form."
+
+#: admin.php:424
+msgid "This hook executes immediately before the comments block."
+msgstr "This hook executes immediately before the comments block."
+
+#: admin.php:292
+msgid "This hook executes immediately before the content column."
+msgstr "This hook executes immediately before the content column."
+
+#: admin.php:282
+msgid "This hook executes immediately before the div block that wraps the content and the primary sidebar."
+msgstr "This hook executes immediately before the div block that wraps the content and the primary sidebar."
+
+#: admin.php:574
+msgid "This hook executes immediately before the footer."
+msgstr "This hook executes immediately before the footer."
+
+#: admin.php:248
+msgid "This hook executes immediately before the header."
+msgstr "This hook executes immediately before the header."
+
+#: admin.php:450
+msgid "This hook executes immediately before the pings block."
+msgstr "This hook executes immediately before the pings block."
+
+#: admin.php:516
+msgid "This hook executes immediately before the primary sidebar column."
+msgstr "This hook executes immediately before the primary sidebar column."
+
+#: admin.php:532
+msgid "This hook executes immediately before the primary sidebar widget area."
+msgstr "This hook executes immediately before the primary sidebar widget area."
+
+#: admin.php:227
+msgid "This hook executes in the document <code>&lt;head&gt;</code>.<br /> It is commonly used to output <code>META</code> information about the document."
+msgstr "This hook executes in the document <code>&lt;head&gt;</code>.<br /> It is commonly used to output <code>Meta</code> information about the document."
+
+#: admin.php:435
+msgid "This hook executes inside the comments block. By default, it outputs a list of comments associated with a post via the <code>genesis_default_list_comments()</code> function."
+msgstr "This hook executes inside the comments block. By default, it outputs a list of comments associated with a post via the <code>genesis_default_list_comments()</code> function."
+
+#: admin.php:461
+msgid "This hook executes inside the pings block. By default, it outputs a list of pings associated with a post via the <code>genesis_default_list_pings()</code> function."
+msgstr "This hook executes inside the pings block. By default, it outputs a list of pings associated with a post via the <code>genesis_default_list_pings()</code> function."
+
+#: admin.php:429
+msgid "This hook outputs the comments block."
+msgstr "This hook outputs the comments block."
+
+#: admin.php:406
+msgid "This hook outputs the content of the post/page, by default."
+msgstr "This hook outputs the content of the post/page, by default."
+
+#: admin.php:521
+msgid "This hook outputs the content of the primary sidebar, including the widget area output."
+msgstr "This hook outputs the content of the primary sidebar, including the widget area output."
+
+#: admin.php:547
+msgid "This hook outputs the content of the secondary sidebar, including the widget area output."
+msgstr "This hook outputs the content of the secondary sidebar, including the widget area output."
+
+#: admin.php:253
+msgid "This hook outputs the default header."
+msgstr "This hook outputs the default header."
+
+#: admin.php:499
+msgid "This hook outputs the entire comment form."
+msgstr "This hook outputs the entire comment form."
+
+#: admin.php:456
+msgid "This hook outputs the pings block."
+msgstr "This hook outputs the pings block."
+
+#: admin.php:389
+msgid "This hook outputs the post/page title."
+msgstr "This hook outputs the post/page title."
+
+#: admin.php:579
+msgid "This hook, by default, outputs the content of the footer."
+msgstr "This hook, by default, outputs the content of the footer."
+
+#: admin.php:352
+msgid "This hook, by default, outputs the entry content."
+msgstr "This hook, by default, outputs the entry content."
+
+#: admin.php:270
+msgid "This hooks executes inside the header, and by default, outputs the site description."
+msgstr "This hooks executes inside the header, and by default, outputs the site description."
+
+#: admin.php:264
+msgid "This hooks executes inside the header, and by default, outputs the site title."
+msgstr "This hooks executes inside the header, and by default, outputs the site title."
+
+#: functions.php:54
+msgid "Unhook <code>%s()</code> function from this hook?"
+msgstr "Unhook <code>%s()</code> function from this hook?"
+
+#: admin.php:181
+msgid "WordPress Hooks"
+msgstr "WordPress Hooks"

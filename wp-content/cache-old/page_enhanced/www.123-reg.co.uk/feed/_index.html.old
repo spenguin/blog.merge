@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Better business online: Tips, insight and advice</title>
+	<atom:link href="http://www.123-reg.co.uk/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.123-reg.co.uk/blog</link>
+	<description></description>
+	<lastBuildDate>Tue, 27 May 2014 11:36:51 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.9.1</generator>
+	<item>
+		<title>Will Google&#8217;s Panda 4.0 bite into your traffic?</title>
+		<link>http://www.123-reg.co.uk/blog/search-engines/google-panda-4-0-traffic/</link>
+		<comments>http://www.123-reg.co.uk/blog/search-engines/google-panda-4-0-traffic/#comments</comments>
+		<pubDate>Tue, 27 May 2014 10:05:07 +0000</pubDate>
+		<dc:creator><![CDATA[Alexandra Gavril]]></dc:creator>
+				<category><![CDATA[Search engines]]></category>
+		<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=11649</guid>
+		<description><![CDATA[<p>Yet another big shakeup in Google land is affecting how websites rank in the search engine’s results. Matt Cutts, Head of Webspam team at Google, recently confirmed via Twitter that the search engine giant has started rolling out the Panda 4.0 update. Google is rolling out our Panda 4.0 update starting today. — Matt Cutts</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/search-engines/google-panda-4-0-traffic/">Will Google&#8217;s Panda 4.0 bite into your traffic?</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/search-engines/top-6-google-organic-ranking-factors-2013/' rel='bookmark' title='Top 6 Google Organic Ranking Factors 2013'>Top 6 Google Organic Ranking Factors 2013</a> <small>After the many Penguin and Panda updates, there’s been a...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/much-competition-increase-traffic-long-tail-keywords/' rel='bookmark' title='Too much competition? Increase your traffic with long tail keywords'>Too much competition? Increase your traffic with long tail keywords</a> <small>No matter what business or industry you’re in, you probably...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/organic-traffic-slumping-time-to-look-at-ios-6/' rel='bookmark' title='Organic traffic slumping? Time to look at iOS 6'>Organic traffic slumping? Time to look at iOS 6</a> <small>The iPhone5 hit the shelves in mid-September 2012 and it...</small></li>
+</ol>
+
+Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>Yet another big shakeup in Google land is affecting how websites rank in the search engine’s results. Matt Cutts, Head of Webspam team at Google, recently confirmed via Twitter that the search engine giant has started rolling out the Panda 4.0 update.</p>
+<blockquote class="twitter-tweet" lang="en"><p>Google is rolling out our Panda 4.0 update starting today.</p>
+<p>— Matt Cutts (@mattcutts) <a href="https://twitter.com/mattcutts/statuses/468891756982185985">May 20, 2014</a></p></blockquote>
+<p>This fourth generation of Panda will impact 7.5% of English search queries and other languages may also be affected, according to projections from Searchengineland.com. So, there’s a good chance you’ll notice some changes on your site or read about someone being affected this week.</p>
+<p>But what is this update all about and how it is affecting business websites?</p>
+<h2>What is Panda 4.0?</h2>
+<div id="attachment_11660" style="width: 310px" class="wp-caption alignright"><img class="size-full wp-image-11660" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/Panda-4.jpg" alt="Image courtesy of Arvind Balaraman/ FreeDigitalPhotos.net" width="300" height="199" />
+<p class="wp-caption-text">Image courtesy of Arvind Balaraman/ FreeDigitalPhotos.net</p>
+</div>
+<p>Google Panda is a series of search engine algorithm updates created to identify and weed up low-quality websites with duplicate content. The purpose is to find and penalise websites with poor content and, as a result, bring higher quality websites at the top of search results.</p>
+<p>Panda 4.0 is made more interesting because it was released back-to-back with Google’s Payday Loan 2.0 update which targets “very spammy queries”.</p>
+<p>While it’s still <a href="http://searchenginewatch.com/article/2345884/Google-Launches-Panda-4.0">too early to tell</a> how exactly these two updates are impacting sites, one thing is clear – websites everywhere are suffering.</p>
+<p>Ask.com, Examiner.com, Health.com are just a few of the <a href="http://searchengineland.com/panda-4-0s-big-loser-ebay-winners-losers-chart-192123">biggest losers of the Panda 4.0 update</a>. Not to mention eBay which is at the top of the list, <a href="http://www.wordstream.com/blog/ws/2014/05/21/panda-4#.">losing 80% of its organic rankings</a>!</p>
+<p>But that doesn’t mean that only big, hugely popular sites are or will be affected.<strong> Big or small, Panda 4.0 can ruin your business. </strong>However, since Panda 4.0 is still in its rollout stand, it’s too early to tell how websites will be affected. Some small site business owners have already <a href="http://searchenginewatch.com/article/2345884/Google-Launches-Panda-4.0">reported a drop in their rankings</a>.</p>
+<h2>What should small businesses do?</h2>
+<p>The best thing you can do is to keep a close eye on your web analytics and see if you notice any changes like major dips and spikes in organic traffic. Even if in the following weeks you will notice no change, you should still do your best to prevent your site from being affected by future Google updates.</p>
+<p>Here’s four important things to focus on:</p>
+<ol>
+<li><strong>High quality content</strong>. If you’re duplicating content throughout your site, now’s the time to stop if you don’t want to be penalised. Clean up your site and make creating unique and useful content your no. 1 goal.</li>
+<li><strong>Readability. </strong>Stuffing your content with keywords is soooo two years ago. Adding a keyword to every sentence, title tag, header tag and description isn’t going to cut it these days. Instead, start focusing on quality content and readability.</li>
+<li><strong>Usability. </strong>Make sure that your site loads quickly and is easy to navigate through, and that there are no broken links or errors as these things can affect your rankings.</li>
+<li><strong>Engagement</strong>. Build a site that people want to visit, link to, return to, share etc. In other words, build a site that people <em>love</em>.</li>
+</ol>
+<p>No matter what webmasters uncover in the next few days while they’re evaluating and analysing what exactly has caused some sites to rise and others to fall in Google’s search results, one thing is clear: <strong>quality content has never been as important as it is now</strong>.</p>
+<h2>Short overview of previous confirmed Panda updates</h2>
+<p>Google launched the Panda update on February 24, 2011. The first one, <strong>Panda 1.0</strong>, was designed to improve the quality of search results by identifying and lowering the rankings of thin content sites that were either using duplicate or low-quality content with the sole purpose of earning money via ads. This first update targeted English sites in the US only and it affected 11.8% of search queries.</p>
+<p>A few weeks later, on April 11, 2011, <strong>Panda 2.0</strong> was released, this time targeting international websites in English. As a result, 2% of search queries were affected.</p>
+<p>Months passed and in the last week of September Matt Cutts tweeted about Panda related flux to be experienced. A week later site owners started noticing changes in organic traffic. This was later confirmed as <strong>Panda 3.0</strong> and it was aimed at all international sites except Chinese, Japanese and Korean. Panda 3.0 ended up affecting 2% of search queries.</p>
+<p>At the end of September 2012, Google released Panda update #20 which impacted 2.4% of English queries. This was just a week before the <a href="http://www.123-reg.co.uk/blog/domains/everything-you-need-to-know-about-googles-emd-update/">EMD update</a> rolled out.</p>
+<p>The above updates are the one which affected more than 1.5% of search queries.</p>
+<p>Here is a breakdown of all Panda updates and their release dates. So, if your site’s traffic took a significant hit around one of these dates, there’s a good chance it was hit by Panda.</p>
+<ul>
+<li>Panda #25 on March 15, 2013</li>
+<li>Panda #24 on January 22, 2013</li>
+<li>Panda #23 on December 21, 2012</li>
+<li>Panda #22 on November 21st</li>
+<li>Panda #22 on November 21st</li>
+<li>Panda #21 on November 5th</li>
+<li>Panda #20 on September 27th</li>
+<li>Panda 3.9.2 on September 18th</li>
+<li>Panda 3.9.1 on August 20th</li>
+<li>Panda 3.9 on July 24th</li>
+<li>Panda 3.8 on June 25th</li>
+<li>Panda 3.7 on June 9th</li>
+<li>Panda 3.6 on April 27th</li>
+<li>Panda 3.5 on April 19th</li>
+<li>Panda 3.4 on March 23rd</li>
+<li>Panda 3.3 on about February 26th</li>
+<li>Panda 3.2 on about January 15th</li>
+<li>Panda 3.1 on November 18th</li>
+<li>Panda 2.5.3 on October 19/20th</li>
+<li>Panda 2.5.2 on October 13th</li>
+<li>Panda 2.5.1 on October 9th</li>
+<li>Panda 2.5 on September 28th</li>
+<li>Panda 2.4 in August</li>
+<li>Panda 2.3 on around July 22nd.</li>
+<li>Panda 2.2 on June 18th or so.</li>
+<li>Panda 2.1 on May 9th or so.</li>
+<li>Panda 2.0 on April 11th or so.</li>
+<li>Panda 1.0 on February 24th</li>
+</ul>
+<p>So, what do all these updates have in common? What is Google’s Panda targeting?</p>
+<ul>
+<li><strong>Duplicate content</strong>, whether blog posts, product descriptions or About pages.</li>
+<li><strong>Thin content</strong>. If you have many pages with just a line of text, you’re not providing much value to your visitors, are you?</li>
+<li><strong>Too many ads</strong> can be a sign of a low-quality site that’s only focused on earning cash.</li>
+<li><strong>Too many blocks</strong>. If too many users have chosen to block your site (feature available in Chrome), this can trigger a Panda penalty.</li>
+</ul>
+<p><em>Have you noticed any changes in rankings for your website? Looking forward to your comments.</em></p>
+<p><script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/search-engines/google-panda-4-0-traffic/">Will Google&#8217;s Panda 4.0 bite into your traffic?</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/search-engines/top-6-google-organic-ranking-factors-2013/' rel='bookmark' title='Top 6 Google Organic Ranking Factors 2013'>Top 6 Google Organic Ranking Factors 2013</a> <small>After the many Penguin and Panda updates, there’s been a...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/much-competition-increase-traffic-long-tail-keywords/' rel='bookmark' title='Too much competition? Increase your traffic with long tail keywords'>Too much competition? Increase your traffic with long tail keywords</a> <small>No matter what business or industry you’re in, you probably...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/organic-traffic-slumping-time-to-look-at-ios-6/' rel='bookmark' title='Organic traffic slumping? Time to look at iOS 6'>Organic traffic slumping? Time to look at iOS 6</a> <small>The iPhone5 hit the shelves in mid-September 2012 and it...</small></li>
+</ol></p>
+<p>Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/search-engines/google-panda-4-0-traffic/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Social Share – What’s new in social media – May 2014</title>
+		<link>http://www.123-reg.co.uk/blog/social-media/social-share-whats-new-social-media-may-2014/</link>
+		<comments>http://www.123-reg.co.uk/blog/social-media/social-share-whats-new-social-media-may-2014/#comments</comments>
+		<pubDate>Sun, 25 May 2014 07:00:32 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Fuell]]></dc:creator>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Social Media]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=11325</guid>
+		<description><![CDATA[<p>The social media sphere expands again with new tools, new ideas and new research. Here&#8217;s some of the most relevant for those doing business online. The Ideal Length of Everything online The way to success is optimisation. A tweak here, a tweak there and boom, suddenly a good thing becomes unbeatable. To make that transition</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/social-media/social-share-whats-new-social-media-may-2014/">Social Share – What’s new in social media – May 2014</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/social-media/social-share-april-2014/' rel='bookmark' title='Social Share &#8211; What&#8217;s new in social media &#8211; April 2014'>Social Share &#8211; What&#8217;s new in social media &#8211; April 2014</a> <small>Social media offers more potential to a small business than...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/social-media/six-ways-to-boost-your-business-social-media-presence/' rel='bookmark' title='Six ways to boost your business social media presence'>Six ways to boost your business social media presence</a> <small>Social media has never been so important to boosting your...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/social-media/15-minutes-day-make-social-media-rock/' rel='bookmark' title='15 minutes a day to make your social media rock'>15 minutes a day to make your social media rock</a> <small>One of the reasons I love Jamie Oliver is that...</small></li>
+</ol>
+
+Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>The social media sphere expands again with new tools, new ideas and new research. Here&#8217;s some of the most relevant for those doing business online.</p>
+<p><a href="http://blog.bufferapp.com/the-ideal-length-of-everything-online-according-to-science" target="_blank">The Ideal Length of Everything online</a></p>
+<p>The way to success is optimisation. A tweak here, a tweak there and boom, suddenly a good thing becomes unbeatable. To make that transition you need to be in the know and this blog post from Kevan Lee at Buffer gives you insight backed with research about the ideal number of characters for a top rated tweet, the ideal length of a Facebook post and the perfect length for a blog post. Take a look an keep those statistics in mind each and every time you post, it is well worth printing out the infographic at the end to stick on your wall. Of course it is not a guaranteee and great content is great content whatever the length but it is a nice insight to keep in mind.</p>
+<p><a href="http://www.amazon.co.uk/gp/socialmedia/amazoncart/ref=amazoncart_surl_amazonbasketlp" target="_blank">#AmazonBasket &#8211; Add it now. Buy it later</a></p>
+<p>Amazon are set to take social shopping to a new level by linking a Twitter hashtag with items customers want to buy. Link your Twitter account to Amazon and use hashtag #AmazonBasket (#AmazonCart in the US) along with a link to an item and you could add it to your amazon account basket ready to be bought next time you login to the online store. It takes sending yourself a reminder or favouriting an item one step further down the sales funnel and could see other retailers follow suit. Watch the video here to find out more.</p>
+<p><a href="http://portal.ebay.co.uk/the-omnichannel-opportunity/" target="_blank">The omni-channel Opportunity</a></p>
+<p>If retail is your thing then this report commissioned by eBay from Deloitte is essential reading. Omni-channel is all about the modern connected customer and how the sales journey has changed in the online era. Interestingly, among the findings is proof that the physical shop still has a very strong role to play in retail and interaction via social is the key to its more modern role.</p>
+<p><a href="http://www.independent.co.uk/life-style/gadgets-and-tech/anonymous-social-network-secret-comes-to-uk-9305952.html" target="_blank">The new social media platform is &#8230;. secret</a></p>
+<p>Almost flying in the face of traditional social media, newer platforms like SnapChat seem to be focused more on privacy and limiting who can identify you  than spreading your name and brand everywhere. The latest UK launch is Secret, an anonymous social network that allows its users to share gossip without using names or profiles. The mobile app based platform launched at the start of  the year in the US raising $8.6m (£5m) in venture capital within its first 45 days and is now hitting the UK.</p>
+<p><a href="https://blog.twitter.com/2014/another-way-to-edit-your-twitter-experience-with-mute" target="_blank">Twitter goes Mute</a></p>
+<p>This month&#8217;s new added functionality from Twitter is Mute which gives you even more control over the content you see on Twitter. Basically, even if you follow somebody you can now elect to stop their posts appearing in your timeline, making your user experience a little bit cleaner.</p>
+<p>So another busy month in social media. Don&#8217;t forget it is the &#8216;social&#8217; aspect that is key and part of that is staying on top of new trends and opportunities in the social sphere. There is plenty to be read in the now streams of the various social media platforms and don&#8217;t forget to keep checking out the 123-reg Content Hub too.</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/social-media/social-share-whats-new-social-media-may-2014/">Social Share – What’s new in social media – May 2014</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/social-media/social-share-april-2014/' rel='bookmark' title='Social Share &#8211; What&#8217;s new in social media &#8211; April 2014'>Social Share &#8211; What&#8217;s new in social media &#8211; April 2014</a> <small>Social media offers more potential to a small business than...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/social-media/six-ways-to-boost-your-business-social-media-presence/' rel='bookmark' title='Six ways to boost your business social media presence'>Six ways to boost your business social media presence</a> <small>Social media has never been so important to boosting your...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/social-media/15-minutes-day-make-social-media-rock/' rel='bookmark' title='15 minutes a day to make your social media rock'>15 minutes a day to make your social media rock</a> <small>One of the reasons I love Jamie Oliver is that...</small></li>
+</ol></p>
+<p>Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/social-media/social-share-whats-new-social-media-may-2014/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>new gTLDS: A look behind the scenes&#8230;.</title>
+		<link>http://www.123-reg.co.uk/blog/domains/new-gtlds-look-behind-scenes/</link>
+		<comments>http://www.123-reg.co.uk/blog/domains/new-gtlds-look-behind-scenes/#comments</comments>
+		<pubDate>Sat, 24 May 2014 12:04:58 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Costello]]></dc:creator>
+				<category><![CDATA[Domains]]></category>
+		<category><![CDATA[Featured]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=11674</guid>
+		<description><![CDATA[<p>The past couple of months have been a very exciting time for both the domain industry and 123-reg. The start of the year saw the launch of new gTLDs and just 5 months into this online revolution we are already starting to become very familiar with new domain endings. We believe that gTLDs are going</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/domains/new-gtlds-look-behind-scenes/">new gTLDS: A look behind the scenes&#8230;.</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/domains/new-gtlds-a-domain-name-for-every-occasion/' rel='bookmark' title='New gTLDs &#8211; A domain name for every occasion?'>New gTLDs &#8211; A domain name for every occasion?</a> <small>Admit it, you spend the majority of your life online...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/domains/everything-business-needs-know-new-gtlds/' rel='bookmark' title='Everything your business needs to know about new gTLDs'>Everything your business needs to know about new gTLDs</a> <small>As you read this, the web is undergoing one of...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/domains/specialist-domain-name-carve-niche/' rel='bookmark' title='Could a specialist domain name carve you a niche?'>Could a specialist domain name carve you a niche?</a> <small>The online marketplace can be as confusing as the old...</small></li>
+</ol>
+
+Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>The past couple of months have been a very exciting time for both the domain industry and 123-reg. The start of the year saw the launch of new gTLDs and just 5 months into this online revolution we are already starting to become very familiar with new domain endings.</p>
+<p>We believe that gTLDs are going to very significant for businesses and that is why we have commissioned our first ever television advertising campaign promoting new gTLDs.</p>
+<p><iframe width="560" height="315" src="//www.youtube.com/embed/ghUA1Z8BidQ" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>The campaign’s aim is to highlight the new and exciting possibilities of new gTLDs and demonstrate how businesses of any size can use these new unique domain names to better promote their brand.</p>
+<p>The advert presents a highly powerful message. We took the word ‘dating’, and placed this generic term in front of differing new gTLDs, including, .london, .club, .pub and .xyz. Now, imagine your business name in front of one these new gTLDs and you can see our thinking behind this!</p>
+<div id="attachment_11677" style="width: 610px" class="wp-caption alignleft"><a href="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/dotNinja1.jpg"><img class="size-full wp-image-11677" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/dotNinja1.jpg" alt="Great new gTLDs like .ninja" width="600" height="315" /></a>
+<p class="wp-caption-text">Great new gTLDs like .ninja</p>
+</div>
+<p>A tv commercial is great, but have you ever wondered how a TV commercial like this gets made? Here, we take you behind the scenes to show you how an initial concept develops and grows into a full television advert.</p>
+<p><iframe width="560" height="315" src="//www.youtube.com/embed/KiXBDD-YabA" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>So if your business is considering a video campaign of any size, remember to use as much as the footage as you can. This way you can develop new and exciting pieces of content for your audiences to continue to engage with. If you&#8217;re not sure how to get started with making video, <a href="http://www.123-reg.co.uk/blog/online-marketing/beginners-guide-effective-low-cost-online-video-marketing/" target="_blank">read our guide to low-budget video marketing</a>.</p>
+<h2><strong>3 great ways to re-use multimedia assets:</strong></h2>
+<p>&nbsp;</p>
+<ol>
+<li><strong>Behind the scenes video</strong>: Before creating your video project, give some serious thought as to whether you can add a behind the footage. This could be as simple as filming yourself in meetings, making sketches or even presenting your project. Then create a short video of these clips to help keep the buzz going!</li>
+<li><strong>Images:</strong> Make sure you keep all of your images throughout the project. Post these on Facebook and Twitter to help increase your viewing and engagement rates.</li>
+<li><strong>Vine:</strong> Short and snappy content is what your audience wants. Why not create a vine video to engage your audience</li>
+</ol>
+<p>&nbsp;</p>
+<p>So when you are at home and you see the 123-reg TV advert, think about how your business could invest in video. Remember, it isn&#8217;t just a 30 second video. The possibilities are endless…</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/domains/new-gtlds-look-behind-scenes/">new gTLDS: A look behind the scenes&#8230;.</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/domains/new-gtlds-a-domain-name-for-every-occasion/' rel='bookmark' title='New gTLDs &#8211; A domain name for every occasion?'>New gTLDs &#8211; A domain name for every occasion?</a> <small>Admit it, you spend the majority of your life online...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/domains/everything-business-needs-know-new-gtlds/' rel='bookmark' title='Everything your business needs to know about new gTLDs'>Everything your business needs to know about new gTLDs</a> <small>As you read this, the web is undergoing one of...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/domains/specialist-domain-name-carve-niche/' rel='bookmark' title='Could a specialist domain name carve you a niche?'>Could a specialist domain name carve you a niche?</a> <small>The online marketplace can be as confusing as the old...</small></li>
+</ol></p>
+<p>Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/domains/new-gtlds-look-behind-scenes/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>So you fancy yourself as an entrepreneur?</title>
+		<link>http://www.123-reg.co.uk/blog/business-2/fancy-entrepreneur/</link>
+		<comments>http://www.123-reg.co.uk/blog/business-2/fancy-entrepreneur/#comments</comments>
+		<pubDate>Fri, 23 May 2014 07:00:04 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Fuell]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Featured]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=11576</guid>
+		<description><![CDATA[<p>It&#8217;s one of the most written about words in business-related articles nowadays and it seems every other child wants to be one but what is an entrepreneur? As the definition from Google above suggests, an entrepreneur can be defined as a person who organises and manages any enterprise &#8211; usually a business &#8211; often with</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/business-2/fancy-entrepreneur/">So you fancy yourself as an entrepreneur?</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/business-2/big-isnt-necessarily-better-business/' rel='bookmark' title='Why big isn&#8217;t necessarily better in business'>Why big isn&#8217;t necessarily better in business</a> <small>You&#8217;ve got a successful start-up. You&#8217;re making some nice money,...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/business-2/matching-generations-maximising-potential/' rel='bookmark' title='Matching Generations: Maximising Potential'>Matching Generations: Maximising Potential</a> <small>The internet creates many possibilities but also presents new barriers...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/business-2/think-competition-become-successful/' rel='bookmark' title='Out-think the competition to become more successful'>Out-think the competition to become more successful</a> <small>Staying ahead of the game and in particular your rivals...</small></li>
+</ol>
+
+Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<div id="attachment_11577" style="width: 410px" class="wp-caption aligncenter"><a href="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/entrepreneur_definition.jpg"><img class="wp-image-11577" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/entrepreneur_definition.jpg" alt="Source: Google.co.uk" width="400" height="131" /></a>
+<p class="wp-caption-text">Source: Google.co.uk</p>
+</div>
+<p>It&#8217;s one of the most written about words in business-related articles nowadays and it seems every other child wants to be one but what is an entrepreneur? As the definition from Google above suggests, an entrepreneur can be defined as a person who organises and manages any enterprise &#8211; usually a business &#8211; often with considerable initiative and risk to themselves personally.</p>
+<p>Yet, whilst the term entrepreneur can be applied to many, the key element of an entrepreneur is that extra element of unique magic. Like a snowflake, no two entrepreneurs are ever likely to be exactly the same but it is possible to categories certain types of entrepreneur. Many have written about what makes an entrepreneur and this article is itself inspired by the book <strong><em>All-Time Essentials for Entrepreneurs: 100 Things to Know an Do to Make Your Idea Happen by Jonathan Yates</em></strong> which introduces some of the terms below and is a worthy read &#8211; but the subject is so far from generic that any &#8216;science&#8217; is more hocus-pocus than proven theory.</p>
+<p>Below is an attempt to highlight the pure breadth of different sorts of entrepreneurs, what makes them tick and why they are still entrepreneurial. There are some very interesting differences that affect the very substance of  everything they do in terms of their business or project. So what sort of entrepreneur are you?</p>
+<h3 class="newaps" style="color: #000000;">Entrepreneur</h3>
+<p>Used as a generic term but also more specifically used to describe those who make money out of an opportunity in the market, driven by a passion to make a profit. A wheeler-dealer, del-boy type who can often see &#8220;pound-notes&#8221; in almost everything they encounter. By their nature, their projects and business ideas are often short-lived and quick-fix solutions nipping in ahead of any competition.</p>
+<div id="attachment_11611" style="width: 310px" class="wp-caption alignright"><a href="http://FreeDigitalPhotos.net"><img class="wp-image-11611" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/ID-100262170-Image-courtesy-of-iosphere-FreeDigitalPhotos.net_.jpg" alt="Image: iosphere - FreeDigitalPhotos.net" width="300" height="300" /></a>
+<p class="wp-caption-text">Image: iosphere &#8211; FreeDigitalPhotos.net</p>
+</div>
+<h3>Altrepreneur</h3>
+<p>Somebody looking for a change in lifestyle and for whom wealth is not the obvious factor. Motivated by a change in circumstance rather than change in bank balance, the altrepreneur sector has been flooded in recent years by many entering early retirement from their first career and finding they are bored. Also a key model for those seeming a work-life balance, possibly with young children</p>
+<h3>Mumpreneur</h3>
+<p>Another lifestyle-choice driven approach. Stay-at-home parents who look to use their spare time in-between their parenting commitments and the demands of their children, to start-up and build a business, usually home-based for obvious reasons. Craft-related business and marketing industries are heavily represented by mumpreneurs / mompreneurs / dadpreneurs with many creative types finding parenthood still leaves them with time and creative juice to spare.</p>
+<h3>Soloproneur</h3>
+<p>Individuals, usually motivated by money, ego or both. Achievement, success and the ability to prove themselves on their own merit are often key to them looking to build a business. Usually have a great story to tell, but their balance sheet tells a different story. Often shunned by angel investors who fear the loss of that sole person also means the loss of their investment. By the nature of their business model, extremely hands-on, often at the expense of their social network, creating something of a spiral in terms of working alone.</p>
+<h3>Wantrapreneur</h3>
+<p>Somebody excited by the prospect of running their own business but as yet hasn&#8217;t. Forever being seen in the hunt for a suitable project or perfect starting point. Probably has a bookshelf full of self-confidence books and biographies of successful business people. Often more in love with the idea of entrepreneursim than being one themselves. Usually to be found in a nice 9-5 role with 30 days holiday per year, private healthcare, season-ticket loan or company car and a whole host of other work related benefits that act as a powerful magnet to the &#8216;employed&#8217; world.</p>
+<h3>Socialpreneur</h3>
+<p>Sometimes seen as the do-gooders or the cardigan brigade, socialpreneurs have been working hard of late to shelve their rather negative image they certainly have amongst the business press. A socialpreneur is committed to using their entrepreneurial skills to remedy various social problems such as in areas of economic deprivation, high unemployment and low education.  Ironically, their fantastic work in regions, communities and in nationwide initiatives actually show the great value entrepreneurship skills can provide to society. Many an ultrapreneur (see below) oftens turns towards socialpreneurship over time.</p>
+<div id="attachment_11608" style="width: 310px" class="wp-caption alignright"><a href="http://FreeDigitalPhotos.net"><img class="wp-image-11608" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/ID-100262167-Image-courtesy-of-iosphere-FreeDigitalPhotos.net_.jpg" alt="Image: iosphere - FreeDigitalPhotos.net" width="300" height="300" /></a>
+<p class="wp-caption-text">Image: iosphere &#8211; FreeDigitalPhotos.net</p>
+</div>
+<h3>Ultrapreneur</h3>
+<p>A serial entrepreneur who may build success and then reinvest that immediately into a new business. Not always solely for financial gain &#8211; although that helps &#8211; but often for the sheer enjoyment and adrenaline buzz of building a new business and the challenge of making it a success. Often much admired, although their constant happiness or desire to keep moving or doing new things can become an irritant to those close to them.</p>
+<h3>Freesource(u)r</h3>
+<p>An entrepreneur who starts with nothing and grows a business from only that money that the company itself can generate, using free resrources, in-built skills and often a wide-range of favours. Becoming a very popular model in terms of austerity, especially for those with ambitions of becoming an altrepreneur but constrained by existing commitments.</p>
+<p>Of course each of those definitions can be loosely applied to almost each and every one of us reading articles like this and each &#8216;trait&#8217; or &#8216;style&#8217; has its own positives and negatives that affect how others perceive you. The important thing to note however in terms of entrepreneurship is that it is not a one size fits all career path. Certain characteristics are helpful but not essential even for top-line success. It is all about understanding the risks that being an entrepreneur brings &#8211; not only financially but also in your outlook on the world from this point forward. A true entrepreneur&#8217;s mindset is different from those comfortable in a routine job with a guaranteed regular pay packet. It&#8217;s not for everybody and everybody is certainly not for it, but the entrepreneur spirit it seems is here to stay and growing every day, especially in the online world.</p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/business-2/fancy-entrepreneur/">So you fancy yourself as an entrepreneur?</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/business-2/big-isnt-necessarily-better-business/' rel='bookmark' title='Why big isn&#8217;t necessarily better in business'>Why big isn&#8217;t necessarily better in business</a> <small>You&#8217;ve got a successful start-up. You&#8217;re making some nice money,...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/business-2/matching-generations-maximising-potential/' rel='bookmark' title='Matching Generations: Maximising Potential'>Matching Generations: Maximising Potential</a> <small>The internet creates many possibilities but also presents new barriers...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/business-2/think-competition-become-successful/' rel='bookmark' title='Out-think the competition to become more successful'>Out-think the competition to become more successful</a> <small>Staying ahead of the game and in particular your rivals...</small></li>
+</ol></p>
+<p>Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/business-2/fancy-entrepreneur/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>New legislation shifts how you contract with consumers</title>
+		<link>http://www.123-reg.co.uk/blog/business-2/new-legislation-shifts-contract-consumers/</link>
+		<comments>http://www.123-reg.co.uk/blog/business-2/new-legislation-shifts-contract-consumers/#comments</comments>
+		<pubDate>Thu, 22 May 2014 10:02:44 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Fuell]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Featured]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=11327</guid>
+		<description><![CDATA[<p>If your business is B2C then you need to make sure that your contracts and the way you do business is compliant with new law coming into effect on 13th June of this year. Back in December the Government gave approval to implement The Consumer Contracts (Information, Cancellation and Additional Payments) Regulations 2013 &#8211; basically</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/business-2/new-legislation-shifts-contract-consumers/">New legislation shifts how you contract with consumers</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+
+No related posts.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>If your business is B2C then you need to make sure that your contracts and the way you do business is compliant with new law coming into effect on 13th June of this year.</p>
+<div id="attachment_11591" style="width: 310px" class="wp-caption alignright"><a href="http://FreeDigitalPhotos.net"><img class="wp-image-11591" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/ID-100249659-Image-courtesy-of-Stuart-Miles-FreeDigitalPhotos.net_.jpg" alt="Image courtesy of Stuart Miles FreeDigitalPhotos.net" width="300" height="272" /></a>
+<p class="wp-caption-text">Image courtesy of Stuart Miles FreeDigitalPhotos.net</p>
+</div>
+<p>Back in December the Government gave approval to implement The Consumer Contracts (Information, Cancellation and Additional Payments) Regulations 2013 &#8211; basically the new rules and information requirements required for those trader&#8217;s doing business with consumers on-site, via distance selling and any contracts made beyond a trader’s normal business premises. The Regulations also cover additional payments (pre-tick boxes) and helpline charges.</p>
+<p>The changes mean if you sell to consumers  - whether online, via telephone, via catalogue, in-store or via home visits &#8211; you will need to review and probably update your sale processes, terms of business and cancellation and refund policies to make sure your procedures still fall within the law.</p>
+<p>The Regulations will come into force on 13 June 2014 and can be found here: <a href="http://www.legislation.gov.uk/uksi/2013/3134/pdfs/uksi_20133134_en.pdf">http://www.legislation.gov.uk/uksi/2013/3134/pdfs/uksi_20133134_en.pdf</a> but they are a bit unwieldy even to those most hardened to legal documentation, so as ever it is best to invest a little time and effort into seeking some professional advice, to make sure you are not putting your business at risk. The Law Society’s free <a href="http://solicitors.lawsociety.org.uk/" target="_blank">Find a Solicitor</a> tool can help you find someone local to you if you don’t already have somebody in mind.</p>
+<p>To help you understand the sort of changes you may need to make here’s a brief overview of some of the main requirements – although please be aware it is far from comprehensive:</p>
+<h2>Who is contracting?</h2>
+<p>There are new information requirements  a business must make readily available to consumers before they enter into a transaction with them including the name of the entity they are contracting with, any trading name, the registered address of the company and any trading address or address for complaints to be sent to if different, along with a telephone number (to which calls can be charged at no more than basic rate) and an email contact address if online.</p>
+<h2>What are they buying?</h2>
+<p>Particularly relevant to online sales, but applicable to each transaction, the business must make clear to the consumer the main characteristics of the product / service they are contracting to. That needs to include relevant information on functionality and compatibility (e.g. what hardware or software may also be required to make it work) and the focus appears very much to be on making things clear to the consumer.</p>
+<h2>What are they paying?</h2>
+<p>Under the new legislation actual costs need to be explicitly clear, including VAT inclusive prices where applicable and any ongoing costs. If actual specific costs likely to be incurred during the lifetime of the contract is not possible then a full breakdown of how that cost will be calculated must be provided in all but a handful of exceptions.</p>
+<h2>Confirmation they know what they are entering into</h2>
+<p>It must be clear to consumers not only what they are buying but how they are buying, including full arrangements for payment such as acceptable methods of paying before they are committed to buying. If ordering online the provisions are very specific to suggest that order buttons  simply names “submit”, “pay”, “continue” or even “order now” will not be sufficient to ensure the consumer has clearly understood they are entering into a contract to purchase. The suggested wording being “Order with obligation to pay”, although the practicalities of that specific wording are yet to be seen.</p>
+<h2>How they will receive the goods / services?</h2>
+<p>The legislation tightens up the delivery process too. At the time of ordering any potential restrictions on delivery times, additional charges etc need to be notified to the consumer before they enter into the transaction. Delivery to be within 30 days unless otherwise agreed.</p>
+<h2>What rights they have to cancel</h2>
+<p>Under the new law the current 7 day cooling off period is extended to 14 days for distance contracts such as over the phone and online orders. For these type of contracts there are also changes to the prescribed information required such as the who is contracting information noted above, but also including specific information on the procedures to cancel the contract and the time limits around the same</p>
+<h2>Post-event confirmation</h2>
+<p>One new requirement affecting distance contracts is the need for a retailer to supply no later than the time of the delivery of any goods or before performance of any service supplied under the contract, confirmation of the contract on a “durable medium” (e.g. by paper or by email). The information to be included in the confirmation to include in particular, the main characteristics of the goods/services; the total price of the goods/services (inclusive of taxes); all additional delivery charges and any other costs.</p>
+<p><em>The changes are a further progression of a number of pieces of consumer legislation in recent years and whilst many businesses may already be operating to standards above the previous legislation, there are a few quirks in the new law that make it essential you check your current terms and conditions and practices alongside the new legislation.</em></p>
+<p><em>This article is only an attempt to signpost some of the clauses you should be aware of if you are operating your business to consumers. For a comprehensive understanding you should refer to the regulations and to understand the relevance to your business it is always advisable to seek professional advice.</em></p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/business-2/new-legislation-shifts-contract-consumers/">New legislation shifts how you contract with consumers</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/business-2/new-legislation-shifts-contract-consumers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Swift Six: Basic website mistakes and how to fix them</title>
+		<link>http://www.123-reg.co.uk/blog/tips-tutorials/swift-six-basic-website-mistakes-fix/</link>
+		<comments>http://www.123-reg.co.uk/blog/tips-tutorials/swift-six-basic-website-mistakes-fix/#comments</comments>
+		<pubDate>Wed, 21 May 2014 12:04:34 +0000</pubDate>
+		<dc:creator><![CDATA[Nick Leech]]></dc:creator>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Tips & tutorials]]></category>
+		<category><![CDATA[Videos]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=11555</guid>
+		<description><![CDATA[<p>First impressions count. If your website contains basic errors, first-time visitors are unlikely to come back, ending your chances of turning them into customers. In this video I&#8217;ll take you through six mistakes that could be harming your website and I&#8217;ll also tell you how to fix them. View Transcript Hello! Welcome to another 123-reg</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/tips-tutorials/swift-six-basic-website-mistakes-fix/">Swift Six: Basic website mistakes and how to fix them</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/tips-tutorials/swift-six-building-trust-website/' rel='bookmark' title='Swift Six: Building trust in your website'>Swift Six: Building trust in your website</a> <small>Being seen as trustworthy is vital for any business website....</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/top-6-lists/swift-six-six-seo-tips-absolute-beginners/' rel='bookmark' title='Swift Six: Six SEO tips for absolute beginners'>Swift Six: Six SEO tips for absolute beginners</a> <small>Are you an absolute beginner in terms of SEO? Nick...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/videos/swift-six-vital-elements-perfect-landing-page/' rel='bookmark' title='Swift Six: Vital elements for the perfect landing page'>Swift Six: Vital elements for the perfect landing page</a> <small>Have your landing pages got what it takes to turn...</small></li>
+</ol>
+
+Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>First impressions count. If your website contains basic errors, first-time visitors are unlikely to come back, ending your chances of turning them into customers. In this video I&#8217;ll take you through six mistakes that could be harming your website and I&#8217;ll also tell you how to fix them. <span id="more-11555"></span></p>
+<p><iframe width="560" height="315" src="//www.youtube.com/embed/IQoHkgEvs58" frameborder="0" allowfullscreen></iframe></p>
+<p><script type="text/javascript">// <![CDATA[
+function showContainer(selector){
+    var $element =  jQuery(selector);
+    $element.toggle();
+    $element.removeClass('hidden');
+}
+// ]]&gt;</script></p>
+<div id="script_head">
+<p class="script_title" onclick="showContainer('#script_container')">View Transcript</p>
+</div>
+<div id="script_container" class="hidden">Hello! Welcome to another 123-reg Swift 6! Today I am going to be talking about simple website mistakes that can really hurt your business.</p>
+<p>So first off, we’ve got spelling and grammar. This is a really big mistake and it’s a really easy one to correct on your website. So get the text from your website, copy it into Word. Anything that’s underlined in red is a spelling error, anything that’s underlined in green is a grammar error. Address the problem and then correct it on your website. It’s a really easy thing to get right.</p>
+<p>The second thing is poor readability. So you need to be thinking about how easy it is for your users to actually read the copy on your site. So the first issue is – is it the right size? Make sure that they can read it whether they are using a desktop PC, a tablet or a mobile. And you need to consider that, you know, there is a lot of traffic on your website that is probably mobile these days. So certainly don’t let that be an afterthought. The second area there to think about is &#8211; what are the colours, what are the images around the text? Sometimes, you need to be very sure that users can read your text and that the background colours aren’t too bright. Also, if you’ve got a lot going on on your page, then it’s a bit of a challenge for them to often read the text. So make sure it’s nice and clean, that there’s a lot of space and that it’s really easy to read. And the third thing is actually just in terms of how the text flows. So what I suggest is you print out that text, hold it up and then read it out to someone else. And if you stumble or if you can’t read it or if they can’t get a sense of it or if the text doesn’t seem to flow, you need to address that and re-write it. And believe me, it makes a big difference reading something out compared to just reading it on the page. You’ll discover things that you’ve literally not seen before.</p>
+<p>OK, the third thing is missing or hard to find calls to action. If someone looks at your webpage and get to the bottom of that webpage, what do you want them to do next? Do you want them to buy something? Do you want them to go to another page? You need to direct your users to the next thing that you want them to be doing. They expect it and you should be doing it because you want to know, you want to get the most out of them visiting your website.</p>
+<p>The fourth thing is missing trust signals. So I’ve covered this in another Swift 6, but trust signals are a really simple addition to any website and it’s an easy mistake to correct. By trust signals I mean something like affiliations or accreditations or organisations that you are a member of. Make sure their logo is on your website. It might be something like a customer testimonial. It’s a great and easy thing to add your site and it really helps users trust you. Or it might be something simple like a map showing where your office is. It’s an easy trust signal to add, it’s an easy mistake to address. </p>
+<p>The fifth things is poor or broken links or poor navigation on your site. So make sure, when you put your site together, that you click every single link and that every link works. There’s nothing that turns website visitors off more than a broken link. They would just leave straight away. So not only check for broken links, but make sure that the links are logical. Does the user end up on the page that they would expect to end up having clicked on that link?</p>
+<p>And the sixth thing is missing lead capture forms or contact details. Users are almost certainly &#8211; if they like what they see on your website &#8211; going to want to get in touch. So make that easy for them and give them as many ways as you can to get in touch. So make sure your phone number is there, make sure your e-mail address is there, make sure your physical address is there and don’t forget that plenty of people like using Facebook and Twitter as well. So make sure that those details are there as well.</p>
+<p>Ok, that was 123-reg Swift 6. I’ll see you next time.</p>
+</div>
+<h3>The next step:</h3>
+<p>Learn more about <a href="http://www.123-reg.co.uk/blog/tips-tutorials/swift-six-building-trust-website/">trust signals with this Swift Six video</a>.</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/tips-tutorials/swift-six-basic-website-mistakes-fix/">Swift Six: Basic website mistakes and how to fix them</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/tips-tutorials/swift-six-building-trust-website/' rel='bookmark' title='Swift Six: Building trust in your website'>Swift Six: Building trust in your website</a> <small>Being seen as trustworthy is vital for any business website....</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/top-6-lists/swift-six-six-seo-tips-absolute-beginners/' rel='bookmark' title='Swift Six: Six SEO tips for absolute beginners'>Swift Six: Six SEO tips for absolute beginners</a> <small>Are you an absolute beginner in terms of SEO? Nick...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/videos/swift-six-vital-elements-perfect-landing-page/' rel='bookmark' title='Swift Six: Vital elements for the perfect landing page'>Swift Six: Vital elements for the perfect landing page</a> <small>Have your landing pages got what it takes to turn...</small></li>
+</ol></p>
+<p>Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/tips-tutorials/swift-six-basic-website-mistakes-fix/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>A great way to do business</title>
+		<link>http://www.123-reg.co.uk/blog/domains/great-way-business/</link>
+		<comments>http://www.123-reg.co.uk/blog/domains/great-way-business/#comments</comments>
+		<pubDate>Tue, 20 May 2014 17:00:55 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Fuell]]></dc:creator>
+				<category><![CDATA[Domains]]></category>
+		<category><![CDATA[Featured]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=11560</guid>
+		<description><![CDATA[<p>350 Exhibitors, 250 seminars, 170 workshop sessions, 2 days and one memorable event. The 31st Business Show at Excel, London at the end of last week was another busy and exciting time for those manning the 123-reg stand. It’s always nice to be able to meet and chat with our customers, old and new, and</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/domains/great-way-business/">A great way to do business</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/domains/business-needs-new-gtld/' rel='bookmark' title='Why your business needs a new gTLD'>Why your business needs a new gTLD</a> <small>For any small business, one of the most critical decisions...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/events/show-mean-business/' rel='bookmark' title='Show you mean business'>Show you mean business</a> <small>At the end of the month  (28th &amp; 29th November)...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/news/business-show/' rel='bookmark' title='We&#8217;re at the Business Show'>We&#8217;re at the Business Show</a> <small>After a very exciting first day we are back on...</small></li>
+</ol>
+
+Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>350 Exhibitors, 250 seminars, 170 workshop sessions, 2 days and one memorable event. The 31<sup>st</sup> Business Show at Excel, London at the end of last week was another busy and exciting time for those manning the 123-reg stand.</p>
+<p><a href="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/ninja1.jpg"><img class="alignright wp-image-11562" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/ninja1.jpg" alt="123-reg stand The Business Show .ninja" width="300" height="533" /></a>It’s always nice to be able to meet and chat with our customers, old and new, and discover what new ideas they have for start-up businesses or new projects and how they intend putting our services to good use. With the launch of the new range of gTLDs, that was very much the focus of our stand branding and it was great to be able to answer many of the questions people had about the new domains.</p>
+<p>If you made to the event and said hello, thank you and we hope you found it useful. If you didn&#8217;t, don&#8217;t worry there will be more opportunities later in the year to meet the 123-reg team face-to-face and we will let you know details via the Content Hub here.</p>
+<p>One big thing to come out of our attendance at the show is that the UK is full of passionate people who understand the importance of any start-up business making sure their online presence is professional as possible. Over the coming weeks and months we will have more insightful hints and tips about maximising the potential of new gTLDs and how they can be used to help create and build your brand online. In the meantime, if you&#8217;ve not checked it out, take a look at our recent article on how to<a href="http://www.123-reg.co.uk/blog/domains/move-new-gtld-like-champ-without-hurting-seo/" target="_blank"> adopt a new gTLD</a> without it affecting your existing SEO and Google rankings.</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/domains/great-way-business/">A great way to do business</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/domains/business-needs-new-gtld/' rel='bookmark' title='Why your business needs a new gTLD'>Why your business needs a new gTLD</a> <small>For any small business, one of the most critical decisions...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/events/show-mean-business/' rel='bookmark' title='Show you mean business'>Show you mean business</a> <small>At the end of the month  (28th &amp; 29th November)...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/news/business-show/' rel='bookmark' title='We&#8217;re at the Business Show'>We&#8217;re at the Business Show</a> <small>After a very exciting first day we are back on...</small></li>
+</ol></p>
+<p>Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/domains/great-way-business/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>On brand mentions and the future of links “without links”</title>
+		<link>http://www.123-reg.co.uk/blog/seo-2/brand-mentions-future-links/</link>
+		<comments>http://www.123-reg.co.uk/blog/seo-2/brand-mentions-future-links/#comments</comments>
+		<pubDate>Mon, 19 May 2014 08:00:43 +0000</pubDate>
+		<dc:creator><![CDATA[Alexandra Gavril]]></dc:creator>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=11538</guid>
+		<description><![CDATA[<p>Can you imagine a world without links and a web without link building? What if Google removed link value from their algorithm altogether? That’s probably never going to happen, however it’s very likely that links will become less important. In fact, Matt Cutts shared a video recently where he talks about how backlinks might not</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/seo-2/brand-mentions-future-links/">On brand mentions and the future of links “without links”</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/trust-signals-search-engines-love-credibility-honesty-reliability/' rel='bookmark' title='Trust signals search engines love: credibility, honesty, reliability'>Trust signals search engines love: credibility, honesty, reliability</a> <small>Think search engines rank sites higher just because they’re popular?...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/syndicating-content-without-affecting-page-rank/' rel='bookmark' title='Syndicating your content without affecting your page rank'>Syndicating your content without affecting your page rank</a> <small>Getting traffic to your site can be a real challenge...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/seo-beginners-backlinkos-brian-dean-part-two/' rel='bookmark' title='SEO for beginners with Backlinko&#8217;s Brian Dean &#8211; part two'>SEO for beginners with Backlinko&#8217;s Brian Dean &#8211; part two</a> <small>In part one of our interview, Brian Dean of Backlinko...</small></li>
+</ol>
+
+Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>Can you imagine a world without links and a web without link building? What if Google removed link value from their algorithm altogether?</p>
+<p>That’s probably never going to happen, however it’s very likely that links will become less important. In fact, Matt Cutts shared a video recently where he talks about how backlinks might not influence rankings in the future as much as they do now.</p>
+<p><iframe width="490" height="315" src="//www.youtube.com/embed/iC5FDzUh0P4" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>To summarise it, he says that in a few years Google will put “a little less emphasis on links” and a bit more on conversational search and natural language when it comes to assessing the reputation of pages and of sites.</p>
+<p>Now, with the recent Google Penguin penalties and the <a href="http://www.mattcutts.com/blog/guest-blogging/">assault on guest blogging</a> done strictly for SEO, the factors that impact success online may very well change soon. While link building remains alive and well, there’s loads of buzz on a new concept – <strong>brand mentions</strong>.</p>
+<p>So, a <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&amp;Sect2=HITOFF&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;S1=08682892&amp;OS=PN/08682892&amp;RS=PN/08682892">patent filed last month</a>, which some say could be <em>the </em>Panda patent, mentions that site authority and relevance may soon be measured “using a ratio of links and mentions, or ‘implied links’”.</p>
+<blockquote class="twitter-tweet" lang="en"><p>I knew it! RT <a href="https://twitter.com/CyrusShepard">@CyrusShepard</a>: This Google patent defines non-linking citations as &#8220;implied links&#8221; <a href="http://t.co/cOxv0irklk">http://t.co/cOxv0irklk</a></p>
+<p>— Rand Fishkin (@randfish) <a href="https://twitter.com/randfish/statuses/448715087927595008">March 26, 2014</a></p></blockquote>
+<p>The relevant part of the patent is this:</p>
+<p><em>“The system determines a count of independent links for the group (step 302). A link for a group of resources is an incoming link to a resource in the group, i.e., a link having a resource in the group as its target. Links for the group can include express links, implied links, or both. An express link, e.g., a hyperlink, is a link that is included in a source resource that a user can follow to navigate to a target resource. An implied link is a reference to a target resource, e.g., a citation to the target resource, which is included in a source resource but is not an express link to the target resource. Thus, a resource in the group can be the target of an implied link without a user being able to navigate to the resource by following the implied link.”</em></p>
+<p>So, a hyperlink as we know it today is referred to as an <strong>express link</strong>. While this will still be factored into the algorithm, the <strong>implied link </strong>will be just as important, if not more. The implied link is the brand mention or online citation. Basically, it’s when someone mentions your company name, brand or product name without actually linking to your site.</p>
+<h3><strong>Why mention building might pay off more than link building in the future</strong></h3>
+<p><strong>Measuring authority</strong></p>
+<p>With the abuse of  guest blogging and similar tactics, Google needed to find a more efficient way to <strong>measure authority </strong>without relying on links. This is where brand citations come in. A site can have tens of links but if it has few brand mentions, that says something about its lack of authority.</p>
+<p><strong>Measuring social engagement and sentiment</strong></p>
+<p>This new patent can also be a great way to <strong>measure social engagement and sentiment</strong>. As you know, social media shares tend to be nofollow so those links don’t pass PageRank anyway. So, there needed to be a way to handle all that social activity (shares, tweets) that mention a brand name but without including a link.</p>
+<p>You might mention a person, a site or a brand for various reasons – maybe you like the brand, maybe you’ve bought something and want to give the business credit for a fantastic product or service. Or maybe you’re not happy with the service or product and want everyone to be aware. Just mentioning a name can do the trick.</p>
+<h3><strong>How to improve brand mentions </strong></h3>
+<p>The answer may sound simple but it takes hard work: build great content that gets people sharing and talking about your brand. And do that constantly, not just once every month or so.</p>
+<p>If you want you content to be read and shared by tens of thousands, make sure it plays on core emotions. There’s actually a report first shared in 2010 titled &#8221; <a href="http://www.msi.org/reports/social-transmission-emotion-and-the-virality-of-online-content/">Social Transmission, Emotion, and the Virality of Online Content</a>,&#8221; that talks about the strong relationship between emotion and how likely it is that your content will “go viral”.</p>
+<p>Here’s a few ideas on what type of content you should be publishing:</p>
+<ul>
+<li>Positive content that makes people feel good</li>
+<li>Awe inspiring, surprising or humorous content</li>
+</ul>
+<p>The report mentions that content that causes sadness or evokes anger is less likely to be shared or to become viral.</p>
+<p>Now, while you’re doing your best to increase brand citations online, make sure you also track these mentions as well as nofollow links. There&#8217;s no point doing all of this if you don’t know how well you are performing.</p>
+<h3><strong>Six tools for monitoring mentions and social sentiment</strong></h3>
+<p>These are a few tools you can use to monitor mentions of your brand and see how you’re performing at building engagement and how your audience feels about your brand.</p>
+<p>1. <a href="http://www.google.com/alerts">Google Alerts</a></p>
+<p>Google Alerts is a fantastic tool for setting up alerts for certain keywords, such as your brand name, and having the latest news delivered to your inbox. It monitors news, blogs, video, discussions, books, and it’s free.</p>
+<p>Here’s how you can set up a custom Google alert so you can get notified as soon as a mention of you brand (without a link) happens.</p>
+<p>Let’s say I want to monitor Google’s index for mentions of 123-reg.</p>
+<p><img class="alignnone wp-image-11539 size-full" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/google-alerts.png" alt="google alerts" width="490" height="377" /></p>
+<p>So, all you need to do is enter your brand name into the search query field, choose how often you’d like to receive notifications (you may choose as-it-happens, once a day or once a week) and then create the alert.</p>
+<p>2. <a href="https://en.mention.net/">Mention</a> combines media and social monitoring, tracking content published on web pages, news sites, blogs and forums in tens of languages. There’s a free plan but that only allows you to set one alert and up to 100 mentions.</p>
+<p>3. <a href="http://socialmention.com/">Social Mention</a> is a free web search tool that provides real time search of brand mentions on blogs, microblogs, images, videos, questions, and bookmarking sites. It also provides a broad brush sentiment analysis.</p>
+<p>4. <a href="http://topsy.com/">Topsy</a> allows you to search tweets from 2006 onwards and it looks at links, photos, videos, influencers, and more. However, you will need the Pro version for more advanced reports and alerts.</p>
+<p>5. <a href="https://tweetdeck.twitter.com/">TweetDeck</a> is also a great tool to monitor mentions on Twitter. Here’s one simple thing you can use to track your mentions all the time.</p>
+<p>Go to Add Column located in the left menu and then click on Mentions to create a private timeline that’s constantly updated with tweets talking to/ about you. You can also create separate timelines with tweets that include specific search terms – your brand name, product name, CEO, certain keywords. To do that, simply click on Search, enter the search term and you’re ready to go.</p>
+<p><img class="alignnone wp-image-11540" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/tweetdeck.png" alt="tweetdeck" width="490" height="482" /></p>
+<p>6. <a href="http://hootsuite.com/">Hootsuite</a> is a social media management tools that not only enables you to track and respond to mentions of your brand or specific keywords that you’ve set up but also to schedule status updates.</p>
+<p>There are probably loads more tools you can use for this purpose so if you have any recommendations, do share them in a comment below.</p>
+<h3><strong>What next?</strong></h3>
+<p>Yandex, the largest search engine in Russia, has already announced at the beginning of April that they have launched their <a href="http://searchenginewatch.com/article/2338592/No-Links-Ranking-The-Battle-for-Better-Organic-SERPs">&#8220;no link&#8221; algorithm</a>, which means that they will no longer consider links for commercial queries as a ranking factor (more specifically, commercial queries in the Moscow region).</p>
+<p>When it comes to Google, the exclusion of backlink relevancy is just a “<em>what if</em>” scenario at this point. In fact, asked if Google have a version of the search engine that completely excludes backlink relevancy, Matt Cutts said in a <a href="https://www.youtube.com/watch?v=NCY30WhI2og">YouTube video</a> that they have indeed been running some internal tests to see how this would work and what would happen. According to Cutts, excluding backlinks relevancy resulted in &#8220;much worse&#8221; search quality.</p>
+<p>“It turns out backlinks, even though there’s some noise and certainly a lot of spam, for the most part are still a really, really big win in terms of quality for search results,” said Cutts.</p>
+<p>So, even if Google does decide to put less emphasis on links and more on brand mentions in assessing a site’s authority, links will still be important.</p>
+<p><em>Your turn now: If Google does decide to put less emphasis on links, how do you think this would affect your business?</em></p>
+<p><script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/seo-2/brand-mentions-future-links/">On brand mentions and the future of links “without links”</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/trust-signals-search-engines-love-credibility-honesty-reliability/' rel='bookmark' title='Trust signals search engines love: credibility, honesty, reliability'>Trust signals search engines love: credibility, honesty, reliability</a> <small>Think search engines rank sites higher just because they’re popular?...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/syndicating-content-without-affecting-page-rank/' rel='bookmark' title='Syndicating your content without affecting your page rank'>Syndicating your content without affecting your page rank</a> <small>Getting traffic to your site can be a real challenge...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/seo-beginners-backlinkos-brian-dean-part-two/' rel='bookmark' title='SEO for beginners with Backlinko&#8217;s Brian Dean &#8211; part two'>SEO for beginners with Backlinko&#8217;s Brian Dean &#8211; part two</a> <small>In part one of our interview, Brian Dean of Backlinko...</small></li>
+</ol></p>
+<p>Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/seo-2/brand-mentions-future-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Six Google tricks &#8211; just for fun</title>
+		<link>http://www.123-reg.co.uk/blog/misc/six-google-tricks-just-fun/</link>
+		<comments>http://www.123-reg.co.uk/blog/misc/six-google-tricks-just-fun/#comments</comments>
+		<pubDate>Fri, 16 May 2014 08:00:55 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Fuell]]></dc:creator>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Misc]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=11329</guid>
+		<description><![CDATA[<p>Google may be the master of search but it also has a quirky side to it too. Some of its creations are not necessarily going to help your business and these six are more likely to simply bring a smile to your face, but are well worth a look: 1. Barrel Roll To start off,</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/misc/six-google-tricks-just-fun/">Six Google tricks &#8211; just for fun</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/uncategorized/6-simple-tricks-to-make-your-workspace-more-fun/' rel='bookmark' title='6 Simple Tricks to make your Workspace more fun'>6 Simple Tricks to make your Workspace more fun</a> <small>Even we will admit, working can get to be a...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/news/google-launches-html5-based-google-web-designer/' rel='bookmark' title='Google launches HTML5 based Google Web Designer'>Google launches HTML5 based Google Web Designer</a> <small>Hot on the heels of our own recent post on...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/penalised-by-google-11-reasons-why-and-how-to-recover/' rel='bookmark' title='Penalised by Google? Here&#8217;s 11 reasons why and how to recover'>Penalised by Google? Here&#8217;s 11 reasons why and how to recover</a> <small>Search engines become smarter all the time. Google is constantly...</small></li>
+</ol>
+
+Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/barrelroll.jpg"><img class="alignright wp-image-11489" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/barrelroll.jpg" alt="do a barrel roll screen grab" width="200" height="251" /></a>Google may be the master of search but it also has a quirky side to it too. Some of its creations are not necessarily going to help your business and these six are more likely to simply bring a smile to your face, but are well worth a look:</p>
+<h3>1. Barrel Roll</h3>
+<p>To start off, this one is completely bizarre. Simply type “do a barrel roll” into the search bar on Google and watch your screen do just that. Silly, yes, but why not.</p>
+<h3><a href="http://www.google.com/doodles" target="_blank">2. Google Doodle archive</a></h3>
+<p>Google Doodles are those often intricate images and games that incorporate the Google logo to celebrate a special event. This site has every Google Doodle &#8211; over 2000 &#8211; ever created including the many interactive game and play-along doodles. A great timewaster.</p>
+<h3>3. The Kevin Bacon Number</h3>
+<p>Six degrees of separation is the concept that links everybody to one another in just six connections. Applying the same to movies and film, The Six Degrees of Kevin Bacon, links any actor to fellow thespian Kevin Bacon via the movies actors and actresses have appeared in. It seems almost every famous person can be linked to Kevin Bacon. Type the name of the famous person followed by Bacon number, for example &#8220;The Queen Kevin Bacon number&#8221;, and find out how many connections it takes to link them and also how they link.</p>
+<h3><a href="http://images.google.com" target="_blank">4. Reverse image search</a></h3>
+<p>Everybody knows that you can search or images online but few know that if you find an image online and you can&#8217;t work out what it is, you can use Google Image Search to tell you using a reverse look up. Head to <a href="http://images.google.com" target="_blank">images.google.com</a> and click the camera icon in the search bar. Now either paste the URL of the image or upload the image from your computer and Google will try and identify it for you.</p>
+<h3>5. Tilt</h3>
+<p>If you liked barrel roll, then you will probably smile at tilt too. Typing the word “tilt” or “askew” into the Google search bar when using Chrome or Safari browsers and you screen whole screen will duly obey.</p>
+<h3><a href="https://www.google.com/search?hl=en&amp;site=imghp&amp;tbm=isch&amp;source=hp&amp;biw=1360&amp;bih=643&amp;q=atari+breakout&amp;oq=atrai+breakout&amp;gs_l=img.1.0.0i10l10.564.3233.0.4012.14.14.0.0.0.0.103.889.12j2.14.0....0...1ac.1.43.img..0.14.886.JkFDkMveWHM#imgdii=_" target="_blank">6. Breakout</a></h3>
+<p>Those of a certain vintage will remember even before Tetris a block game that won the hearts and minds of those playing on Atari games consoles. Breakout took the idea of a simple digital bat hitting some digital squares and brought fantastically addictive gameplay to it. This recreates the classic game for free online. Just type &#8220;Atari Breakout&#8221; in the Google Box, click the button and your game will start.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/misc/six-google-tricks-just-fun/">Six Google tricks &#8211; just for fun</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/uncategorized/6-simple-tricks-to-make-your-workspace-more-fun/' rel='bookmark' title='6 Simple Tricks to make your Workspace more fun'>6 Simple Tricks to make your Workspace more fun</a> <small>Even we will admit, working can get to be a...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/news/google-launches-html5-based-google-web-designer/' rel='bookmark' title='Google launches HTML5 based Google Web Designer'>Google launches HTML5 based Google Web Designer</a> <small>Hot on the heels of our own recent post on...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/seo-2/penalised-by-google-11-reasons-why-and-how-to-recover/' rel='bookmark' title='Penalised by Google? Here&#8217;s 11 reasons why and how to recover'>Penalised by Google? Here&#8217;s 11 reasons why and how to recover</a> <small>Search engines become smarter all the time. Google is constantly...</small></li>
+</ol></p>
+<p>Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/misc/six-google-tricks-just-fun/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Working From Home: Location, Location, Location</title>
+		<link>http://www.123-reg.co.uk/blog/business-2/working-home-location-location-location/</link>
+		<comments>http://www.123-reg.co.uk/blog/business-2/working-home-location-location-location/#comments</comments>
+		<pubDate>Thu, 15 May 2014 08:00:27 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Fuell]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Featured]]></category>
+
+		<guid isPermaLink="false">http://www.123-reg.co.uk/blog/?p=9174</guid>
+		<description><![CDATA[<p>So you&#8217;ve been offered the chance to work from home. Whether that is for a company or you are self-employed as you launch your own business, be warned it has its drawbacks as well as benefits. Even &#8216;at home&#8217; the notion of where you work will have a big effect on your success and, just</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/business-2/working-home-location-location-location/">Working From Home: Location, Location, Location</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/top-6-lists/working-from-home-staying-in-contact/' rel='bookmark' title='Working From Home: Staying in Contact'>Working From Home: Staying in Contact</a> <small>© Photographer: Carol Afshar | Agency: Dreamstime.com As a remote...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/top-6-lists/top-6-tips-on-motivating-yourself-to-work-from-home/' rel='bookmark' title='Top 6 tips on motivating yourself to work from home'>Top 6 tips on motivating yourself to work from home</a> <small>Some people say I’m lucky to be working from home....</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/uncategorized/6-simple-tricks-to-make-your-workspace-more-fun/' rel='bookmark' title='6 Simple Tricks to make your Workspace more fun'>6 Simple Tricks to make your Workspace more fun</a> <small>Even we will admit, working can get to be a...</small></li>
+</ol>
+
+Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>So you&#8217;ve been offered the chance to work from home. Whether that is for a company or you are self-employed as you launch your own business, be warned it has its drawbacks as well as benefits. Even &#8216;at home&#8217; the notion of where you work will have a big effect on your success and, just like choosing a real office, your virtual office is all about location, location, location. When choosing where you set up your workspace keep the following in mind:</p>
+<h3>Comfortable doesn&#8217;t mean comfy</h3>
+<div id="attachment_11494" style="width: 276px" class="wp-caption alignright"><a href="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/armchair-in-library-ID-10093893-Image-courtesy-of-Serge-Bertasius-Photography-FreeDigitalPhotos.net_.jpg"><img class="wp-image-11494 size-full" src="http://www.123-reg.co.uk/blog/wp-content/library/2014/05/armchair-in-library-ID-10093893-Image-courtesy-of-Serge-Bertasius-Photography-FreeDigitalPhotos.net_.jpg" alt="Image courtesy of Serge Bertasius Photography FreeDigitalPhotos.net" width="266" height="400" /></a>
+<p class="wp-caption-text">Image courtesy of Serge Bertasius Photography FreeDigitalPhotos.net</p>
+</div>
+<p>Just as doing business in your underpants is possible when you work from home &#8211; some offices too we understand &#8211; it isn&#8217;t recommended if you want to be in the right mind-set to do business. Equally, making your workspace too relaxed an environment can affect where your head is at. Laying on a bed of feathered pillows is great to relax your mind when you want to go to sleep but when you should be focusing on some killer sales tactics it clearly isn&#8217;t going to help. You need to be in  surroundings that don&#8217;t make your back ache but equally you wouldn&#8217;t feel embarrassed showing to a client.</p>
+<h3>Clear from distraction</h3>
+<p>However much you love your work, temptation is a hard thing to resist day in, day out. If you love your gaming, don&#8217;t situate your working space within easy reach of your games console. Keep that as a treat. Have a productive few hours and then use the benefit of working from home to have a gaming session, but don&#8217;t make that opportunity over-tempting by sitting alongside it all day.</p>
+<h3>An Air of distinction</h3>
+<p>Even if you live and work in a small studio space, make sure you set-up clear lines between what is workspace and what is living space. Even if it is a different chair, make the difference between where you relax and chill and where you do &#8216;business&#8217;. It&#8217;s all about the mind-set and psychology again but it is an important step to take to ensure that what you do in your business day has real meaning to it.</p>
+<h3>Mix it up</h3>
+<p>One of the negatives of working from home is the lack of social interaction, which however sociable you are or not, will eventually get to you. So don&#8217;t be constrained by the &#8216;from home&#8217; bit. Consider it more as &#8216;on location&#8217;. With the plethora of public wifi facilities available and the strength of 3G and 4G signals there&#8217;s no reason why you can&#8217;t act just as efficiently sat in your local library, coffee shop or even local park. Just a different location will help reinvigorate your mind so you needn&#8217;t choose a busy space if you don&#8217;t want to be too sociable.</p>
+<p>Working from home could be the best move you ever make, equally it could be your first step downwards in a spiral movement away from productivity. Keep focused and keep the benefits of home-working something a little special and you will soon begin to understand why so-many love the telecommute over the real commute to work.</p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="http://www.123-reg.co.uk/blog/business-2/working-home-location-location-location/">Working From Home: Location, Location, Location</a> appeared first on <a rel="nofollow" href="http://www.123-reg.co.uk/blog">Better business online: Tips, insight and advice</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.123-reg.co.uk/blog/top-6-lists/working-from-home-staying-in-contact/' rel='bookmark' title='Working From Home: Staying in Contact'>Working From Home: Staying in Contact</a> <small>© Photographer: Carol Afshar | Agency: Dreamstime.com As a remote...</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/top-6-lists/top-6-tips-on-motivating-yourself-to-work-from-home/' rel='bookmark' title='Top 6 tips on motivating yourself to work from home'>Top 6 tips on motivating yourself to work from home</a> <small>Some people say I’m lucky to be working from home....</small></li>
+<li><a href='http://www.123-reg.co.uk/blog/uncategorized/6-simple-tricks-to-make-your-workspace-more-fun/' rel='bookmark' title='6 Simple Tricks to make your Workspace more fun'>6 Simple Tricks to make your Workspace more fun</a> <small>Even we will admit, working can get to be a...</small></li>
+</ol></p>
+<p>Related posts brought to you by <a href='http://www.yarpp.com'>Yet Another Related Posts Plugin</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.123-reg.co.uk/blog/business-2/working-home-location-location-location/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Content Delivery Network via N/A
+
+ Served from: inside.123-reg.co.uk @ 2014-05-27 13:30:00 by W3 Total Cache -->

@@ -1,0 +1,67 @@
+deny from 92.51.244.132
+
+# User added 301 Redirects
+Redirect 301 /security-issues/password-hacking-protection/ /security-issues/create-strong-password-protect-online-life/
+Redirect 301 /search-engines/what-is-authorrank-and-how-to-implement-relfollow/ /search-engines/what-is-authorrank-and-how-to-implement-rel-author/
+Redirect 301 /new-user-registration/  /
+Redirect 301 /domains/page/19/ 	/category/domains/page/19/
+Redirect 301 /domains/page/2/      /category/domains/page/2/
+Redirect 301 /domains/page/3/      /category/domains/page/3/
+Redirect 301 /misc/page/12/    	/category/misc/page/12/
+Redirect 301 /misc/page/2/     	/category/misc/page/2/
+Redirect 301 /misc/page/3/     	/category/misc/page/3/
+Redirect 301 /news/page/2/     	/category/news/page/2/
+Redirect 301 /news/page/26/        /category/news/page/26/
+Redirect 301 /news/page/3/     	/category/news/page/3/
+Redirect 301 /online-marketing/page/2/ 	/category/online-marketing/page/2/
+Redirect 301 /online-marketing/page/3/     /category/online-marketing/page/3/
+Redirect 301 /online-marketing/page/9/     /category/online-marketing/page/9/
+Redirect 301 /search-engines/page/11/  	/category/search-engines/page/11/
+Redirect 301 /search-engines/page/2/   	/category/search-engines/page/2/
+Redirect 301 /search-engines/page/3/   	/category/search-engines/page/3/
+Redirect 301 /tips-tutorials/page/2/   	/category/tips-tutorials/page/2/
+Redirect 301 /tips-tutorials/page/3/   	/category/tips-tutorials/page/3/
+Redirect 301 /tips-tutorials/page/9/   	/category/tips-tutorials/page/9/
+# End User added 301 Redirects
+
+php_value auto_prepend_file /var/www/sites/inside.123-reg.co.uk/public_html/changehttphost.php
+
+#RewriteEngine On
+#RewriteRule ^$ /maintenance/ [L]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>
+
+# END WordPress
+#order allow,deny
+# Somenoe screwing us over
+#deny from 213.146.153.101
+#allow from all
+
+
+Redirect 301 /domains/page/19/ 	/category/domains/page/19/
+Redirect 301 /domains/page/2/      /category/domains/page/2/
+Redirect 301 /domains/page/3/      /category/domains/page/3/
+Redirect 301 /misc/page/12/    	/category/misc/page/12/
+Redirect 301 /misc/page/2/     	/category/misc/page/2/
+Redirect 301 /misc/page/3/     	/category/misc/page/3/
+Redirect 301 /news/page/2/     	/category/news/page/2/
+Redirect 301 /news/page/26/        /category/news/page/26/
+Redirect 301 /news/page/3/     	/category/news/page/3/
+Redirect 301 /online-marketing/page/2/ 	/category/online-marketing/page/2/
+Redirect 301 /online-marketing/page/3/     /category/online-marketing/page/3/
+Redirect 301 /online-marketing/page/9/     /category/online-marketing/page/9/
+Redirect 301 /search-engines/page/11/  	/category/search-engines/page/11/
+Redirect 301 /search-engines/page/2/   	/category/search-engines/page/2/
+Redirect 301 /search-engines/page/3/   	/category/search-engines/page/3/
+Redirect 301 /tips-tutorials/page/2/   	/category/tips-tutorials/page/2/
+Redirect 301 /tips-tutorials/page/3/   	/category/tips-tutorials/page/3/
+Redirect 301 /tips-tutorials/page/9/   	/category/tips-tutorials/page/9/
+

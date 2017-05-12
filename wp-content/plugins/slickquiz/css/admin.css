@@ -1,0 +1,323 @@
+.slickQuiz .hidden {
+    display: none;
+}
+.slickQuiz .floatLeft {
+    float: left;
+}
+.slickQuiz .floatRight {
+    float: right;
+}
+
+/* QUIZ LIST */
+.slickQuiz .table_actions {
+    text-align: right;
+}
+
+.slickQuiz .readOnly {
+    text-align: center;
+    color: #cc9100;
+    border: 2px dashed;
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 0;
+    background: lightYellow;
+    font-weight: bold;
+}
+
+/* NEW / EDIT Pages */
+.slickQuiz .statusLegend {
+    font-size: 20px;
+    color: #555;
+}
+.slickQuiz .required {
+    margin: 20px 0 40px;
+}
+
+.slickQuiz .quizFormWrapper {
+    clear: both;
+    margin: 0 10px 20px;
+}
+.slickQuiz .quizFormWrapper a {
+    text-decoration: none;
+}
+.slickQuiz .quizFormWrapper dl {
+    margin-bottom: 0;
+}
+.slickQuiz .quizFormWrapper .error {
+    margin: 0;
+    padding: 2px 0 0;
+    background: none;
+    border: none;
+    text-align: left;
+    color: #b5121b;
+}
+.slickQuiz .quizFormWrapper input.error,
+.slickQuiz .quizFormWrapper textarea.error {
+    background: #FEE4DC;
+}
+.slickQuiz .quizFormWrapper .correctAnswer,
+.slickQuiz .quizFormWrapper .twoAnswers {
+    margin-bottom: 20px;
+}
+.slickQuiz .quizFormWrapper .oneQuestion {
+    margin: 20px 7%;
+}
+.slickQuiz .quizFormWrapper form {
+    margin-top: 0;
+}
+.slickQuiz .quizFormWrapper legend {
+    display: none;
+}
+.slickQuiz .quizFormWrapper .question {
+    padding: 0 0 20px 0;
+}
+
+.slickQuiz .quizFormWrapper .question label {
+    display: block;
+}
+.slickQuiz .quizFormWrapper .selectAny label,
+.slickQuiz .quizFormWrapper .forceCheckbox label {
+    display: inline-block;
+}
+
+.slickQuiz .quizFormWrapper input[type=text],
+.slickQuiz .quizFormWrapper textarea {
+    width: 100%;
+}
+.slickQuiz .quizFormWrapper textarea {
+    height: 100px;
+}
+
+.slickQuiz .quizFormWrapper .questionSet {
+    margin: 30px 0 0;
+    padding: 20px 0 0 20px;
+    border: 1px solid #689CBD;
+    background: #eef3f6;
+}
+
+.slickQuiz .quizFormWrapper .questionSetOptions {
+    float: right;
+    padding: 0;
+    margin: -10px 20px 0 0;
+    text-align: right;
+    font-size: 11px;
+}
+
+.slickQuiz .quizFormWrapper .questionSet input[type=text],
+.slickQuiz .quizFormWrapper .questionSet textarea {
+    width: 98% !important;
+}
+.slickQuiz .quizFormWrapper .questionSet textarea {
+    height: 50px;
+}
+
+.slickQuiz .quizFormWrapper .answer input[type=text] {
+    width: 72% !important;
+    font-size: 18px !important;
+}
+
+.slickQuiz .quizFormWrapper .answer .correctAnswer {
+    display: inline;
+}
+
+.slickQuiz .quizFormWrapper .question .main {
+    display: block;
+    margin-bottom: 5px;
+}
+.slickQuiz .quizFormWrapper .question .main + small {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* BUTTONS */
+.slickQuiz .top_button_bar {
+    text-align: right;
+    padding: 9px 0 4px 0;
+    line-height: 30px;
+    width: 420px;
+}
+.slickQuiz .bottom_button_bar {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.slickQuiz .bottom_button_bar .button {
+    float: right;
+    margin-left: 20px;
+}
+.slickQuiz .bottom_button_bar .previewNote {
+    clear: right;
+    float: right;
+    margin: 10px 0 0 0;
+}
+
+
+/* ADD LINKS */
+.slickQuiz .addQuestion {
+    float: left;
+    margin: 20px 0 0 0;
+}
+.slickQuiz .addAnswer {
+    margin: 0 0 20px 0;
+    font-size: 11px;
+}
+
+.slickQuiz .toggleSets {
+    clear: right;
+    float: right;
+    text-align: right;
+    margin: 20px 20px 0 0;
+    font-size: 12px;
+}
+.slickQuiz .toggleSets.top {
+    margin-top: 0;
+}
+.slickQuiz .addQuestion a,
+.slickQuiz .addAnswer a,
+.slickQuiz .toggleSets a {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Preview Pane */
+#preview .quizName {
+    padding: 20px 0 10px;
+}
+#preview h3 {
+    color: #0c4569;
+}
+
+#preview .previewNote {
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+#preview .top_button_bar {
+    width: 97%;
+}
+
+#preview .questions .question,
+#preview .questions .question .responses,
+#preview .questions .question .responses .correct,
+#preview .questions .question .responses .incorrect,
+#preview .quizResults {
+    display: none;
+}
+
+#preview ol,
+#preview ul,
+#preview li {
+    list-style-type: none;
+}
+#preview .question {
+    margin-top: 20px;
+}
+
+#preview .answers {
+    margin: 10px 0;
+    padding: 0;
+}
+#preview .answers li {
+    margin: 0;
+    padding: 0 0 0 5px;
+    line-height: 1.5em;
+}
+
+#preview .responses {
+    margin: 10px 0;
+    padding: 0;
+}
+#preview .responses li {
+    margin: 0;
+    padding: 0;
+}
+#preview .responses li span {
+    display: block;
+    color: #b5121b;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#preview .question.correctResponse .responses li span {
+    color: #6c9f2e;
+}
+
+#preview .quizResults p {
+    margin: 10px 0;
+}
+
+#preview .bottom_button_bar {
+    margin-top: 60px;
+}
+.slickQuiz .button img {
+    vertical-align: text-top;
+}
+
+/* BUTTONS */
+.slickQuiz .buttonGreen {
+    width: 200px;
+    margin-top: 10px;
+    color: #fff;
+    background: #598920;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: block;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 10px 30px 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.slickQuiz .buttonGreen:hover {
+    color: #fff !important;
+    background: #427108;
+    text-decoration: none;
+}
+.slickQuiz .buttonGreen:visited {
+    color: #fff !important;
+}
+
+.slickQuiz .buttonWrapper {
+    margin-top: 30px;
+}
+
+.slickQuizWrapper .startQuiz {
+    display: none;
+}
+.slickQuizWrapper .backToQuestion,
+.slickQuizWrapper .nextQuestion {
+    display: none;
+    float: left;
+    width: 100px;
+    margin-bottom: 40px;
+}
+.slickQuizWrapper .checkAnswer {
+    float: left;
+    width: 180px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+.slickQuizWrapper .desc {
+    color: #aaa;
+    font-size: .9em;
+    margin: .25em 0;
+}
+
+/* Results & Conversion Features */
+.slickQuiz .quizResultsCopy h3 {
+    border-bottom: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.slickQuiz .quizResultsCopy h3 span,
+.slickQuiz .quizResultsCopy .quizLevel {
+    font-style: italic;
+}
+.slickQuiz .quizResultsCopy h4 {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #0C4569;
+}
