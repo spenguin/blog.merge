@@ -1,0 +1,68 @@
+/**
+	Component style code for the header
+*/
+.site-description {
+	display: block;
+	overflow: unset!important;
+	text-indent: unset!important;
+	width: 268px;
+	height: 50px;
+	font-family: $font-family;
+	font-size: 37px;
+	font-weight: bold;
+	color: $color-midblue;	
+	position: absolute;
+	margin-left: 160px;
+	margin-top: -10px;
+	text-align: left;
+	@include respond-to-max( xs-small-screens ) {
+		display: none;
+	}
+}
+
+.site-header {
+	min-height: auto;
+	padding-top: 40px;
+	.wrap {
+		padding-left: $sm-left-padding;
+		padding-right: $sm-right-padding;
+		max-width: 100%;
+		@include respond-to-max( xs-small-screens ) {
+			padding-left: $xs-left-padding;
+			padding-right: $xs-right-padding;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+		@include respond-to-above( xs-small-screens ) {
+			padding-left: $sm-left-padding;
+			padding-right: $sm-right-padding;
+		}
+		@include respond-to-above( small-screens )
+		{
+			padding-left: $md-left-padding;
+			padding-right: $md-right-padding;
+
+		}
+		@include respond-to-above( medium-screens )
+		{
+			max-width: 1200px;
+			padding-left: $lg-left-padding;
+			padding-right: $lg-right-padding;
+		}
+		.title-area {
+			padding-top: 0;
+			padding-bottom: 0;
+		}		
+	}
+
+}
+.title-area {
+	width: 55%!important;
+}
+.header-widget-area {
+	width: 45%!important;
+	@include respond-to-above( small-screens )
+	{
+		width: 100%;
+	}
+}

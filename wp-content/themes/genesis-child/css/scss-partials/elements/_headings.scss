@@ -1,0 +1,19 @@
+/**
+	Headings styles
+*/
+
+h1 {
+	color: $color-midblue;
+	font-size: 36px;
+	font-weight: normal;
+	@include respond-to-max( xs-small-screens ) {
+		font-size: 24px;
+		padding-bottom: 14px;
+	}
+}
+h4 {
+	color: $color-midblue;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 0;
+}

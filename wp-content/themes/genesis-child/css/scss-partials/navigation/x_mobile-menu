@@ -1,0 +1,79 @@
+/**
+	Mobile Menu styling from previous build - may not be necessary
+*/
+
+a.nav-toggle-xs {
+  display: none;
+  position: absolute;
+
+  color: $color-midblue;
+
+  font-size: 22px;
+  font-weight: normal;
+
+  top: 26px;
+  right: 0.9375rem;
+
+  padding-right: 0;
+
+  z-index: 8000;
+
+  /* Close X - within the mobile nav area */
+  &.inside {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    right: 0;
+    color: $color-white !important;
+
+    &:hover, &:visited {
+      color: $color-white !important;
+    }
+  }
+
+  .menu-icon-xs {
+    display: none;
+    position: relative;
+
+    width: 20px;
+    height: 3px;
+
+    top: -11px;
+    right: -5px;
+
+    background: $color-midblue;
+
+    cursor: pointer;
+
+    &:after, &:before {
+      content: '';
+      width: 100%;
+      height: 3px;
+      background: $color-midblue;
+      position: absolute;
+      cursor: pointer;
+    }
+
+    &:after {
+      top: 5px;
+    }
+
+    &:before {
+      top: 10px;
+    }
+
+    @include respond-to(xs-screens) {
+      display: inline-block;
+    }
+  }
+
+  &:hover {
+    color: $color-midblue;
+  }
+
+  @include respond-to(xs-screens) {
+    display: block;
+    top: 38px;
+    right: 20px;
+  }
+}

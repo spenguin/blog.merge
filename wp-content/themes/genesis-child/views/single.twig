@@ -1,0 +1,13 @@
+{# single.twig #}
+
+{% for post in posts  %}
+	<article>
+        <div class="sp-wrapper">
+    		<div class="text">
+    			<h1><a href="{{ post.link }}">{{ post.title }}</a></h1>
+    			<p class="credit">By {{ post.author.name }} - {{ post.published_at|date("F j Y") }}</p>
+    			{{ post.content }}
+    		</div>
+        </div>
+	</article>
+{% endfor %}

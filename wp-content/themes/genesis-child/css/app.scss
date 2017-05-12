@@ -1,0 +1,50 @@
+/* 
+	Theme Name: Genesis Child
+	Theme URI: http://www.studiopress.com/
+	Description: A theme for 123 Reg Blog, based on Genesis by StudioPress
+	Author: John Anderson
+	Author URI: https://www.studiopress.com/
+	Template: genesis
+	Version: 0.0.1
+
+	Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+	Text Domain: genesis-child
+*/
+
+
+// Fonts
+//
+// Globals
+@import "scss-partials/globals";
+
+// Colours
+@import "scss-partials/colours";
+
+// Fonts
+@import "fonts/fonts";
+
+// Tools
+@import "scss-partials/tools";
+
+// Foundation Grid
+//@import "scss-partials/foundation";
+@import "scss-partials/grid";
+
+// Genesis styles
+@import "scss-partials/genesis";
+
+// Elements styles
+@import "scss-partials/elements";
+
+// Navigation
+@import "scss-partials/navigation";
+
+// Components
+@import "scss-partials/components";
+
+// Trumps
+@import "scss-partials/trumps";

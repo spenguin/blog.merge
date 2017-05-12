@@ -1,0 +1,11 @@
+/**
+	Font Awesome classes
+*/
+.addfa-fa-phone {
+	a {
+		&::before {
+			content: '<i class="fa fa-phone"></i>';
+			
+		}
+	}
+}

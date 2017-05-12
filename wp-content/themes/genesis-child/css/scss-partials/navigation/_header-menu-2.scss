@@ -1,0 +1,93 @@
+/**
+	Header Menu 2
+*/
+
+#menu-header-menu-2 {
+	text-align: left;
+	a {
+		font-family: $font-family;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 50px;
+		@include respond-to-above( small-screens )
+		{
+			font-size: 22px!important;
+			line-height: 70px
+		}
+	}
+}
+.nav-primary {
+	background-color: $color-midblue;
+	.wrap {
+		padding: 0;
+		padding-left: $sm-left-padding;
+		padding-right: $sm-right-padding;
+		max-width: 100%;
+		@include respond-to-max( xs-small-screens ) {
+			padding-left: $xs-left-padding;
+			padding-right: $xs-right-padding;
+		}
+		@include respond-to-above( small-screens ) {
+			padding-left: $md-left-padding;
+			padding-right: $md-right-padding;
+		}
+		@include respond-to-above( medium-screens ) {
+			max-width: 1200px;
+			padding-left: $lg-left-padding;
+			padding-right: $lg-right-padding;
+		}
+		ul {
+			li {
+				@include respond-to-max( xs-small-screens ) {
+					display: none;
+				}
+				&.menu-item-search {
+					float: right;
+					@include respond-to-max( xs-small-screens ) {
+						display: block;
+						padding-bottom: 20px;
+						width: 100%;
+					}
+					form {
+						height: 30px;
+						padding-top: 10px;
+						
+						@include respond-to-above( small-screens ) {
+							padding-top: 20px;
+						}
+						input {
+							width: auto;
+							padding: 0;
+							height: 30px;
+							border: 0;
+							&.text_input {
+								font-size: 16px;
+								color: $color-darkgrey;
+								padding: 0 0 0 24px;
+							}
+							&.my-wp-search {
+								width: 39px;
+								background-color: $color-green;	
+								color: white;
+
+							}
+							&:not(.my-wp-search) {
+								@include respond-to-max( xs-small-screens ) {
+									@include main-width-calc( 39px, 0px )
+								}								
+							}
+						}
+					}
+				}
+				a {
+					padding-top: 0;
+					padding-bottom: 0;
+					padding-left: 0;
+					line-height: 70px;
+					color: white;
+				}
+			}
+		}		
+	}	
+}
+

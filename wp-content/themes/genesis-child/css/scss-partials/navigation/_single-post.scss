@@ -1,0 +1,24 @@
+/**
+	Single Post styling
+*/
+.prevnext-navigation {
+	.single-navlink {
+		width: 49%;
+		float: left;
+		text-align: left;
+		&.text-right {
+			float: right;
+			text-align: right;
+			text-decoration: none;
+		}
+		a {
+			padding: 8px;
+			border: 1px solid $color-darkblue;
+			color: $color-darkblue;
+			&:hover {
+				background-color: $color-darkblue;
+				color: white;
+			}
+		}
+	}
+}

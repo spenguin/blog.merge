@@ -1,0 +1,37 @@
+/**
+	Pagination style
+*/
+
+ul.pagination {
+	li {
+		text-align: center;
+		&.ellipsis {
+			display: inline-block;
+			color: white;
+			background-color: $color-midblue;
+			border-color: $color-darkgrey;	
+			min-width: 30px;
+			height: 30px;
+			font-size: 18px;
+			padding: 0;
+		}
+		a {
+			display: inline-block;
+			border: 1px solid $color-darkblue;
+			color: $color-midblue;
+			min-width: 30px;
+			height: 30px;
+			font-size: 18px;
+			padding: 0;
+		}
+		&.active {
+
+			a {
+				color: white;
+				background-color: $color-midblue;
+				border-color: $color-darkgrey;			
+			}
+		}		
+	}
+
+}

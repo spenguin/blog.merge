@@ -1,0 +1,131 @@
+/**
+	Social Links
+*/
+// [START] Social Media Icons Sprite
+// Common Properties for All Icons
+.socials-sprite {
+  list-style-type: none;
+  margin: 0;
+
+  li {
+    float: left;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    a {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+
+      overflow: hidden;
+      position: relative;
+
+      img {
+        width: 25px;
+        height: 150px;
+        position: absolute;
+        left: 0;
+      }
+    }
+
+    @include respond-to(small-screens) {
+      margin-right: 9px;
+    }
+
+    @include respond-to(xs-screens) {
+      margin-right: 15px;
+      float: none;
+    }
+  }
+
+  .icon-facebook {
+    img {
+      top: 0;
+    }
+  }
+
+  .icon-li {
+    img {
+      top: -25px;
+    }
+  }
+
+  .icon-google-plus {
+    img {
+      top: -50px;
+    }
+  }
+
+  .icon-pinterest {
+    img {
+      top: -75px;
+    }
+  }
+
+  .icon-rss {
+    img {
+      top: -100px;
+    }
+  }
+
+  .icon-twitter {
+    img {
+      top: -125px;
+    }
+  }
+}
+
+/*
+.icon-facebook,
+.icon-facebook\:regular {
+  background-position: 0 0;
+}
+
+.icon-li,
+.icon-li\:regular {
+  background-position: 0 -25px;
+}
+
+.icon-google-plus,
+.icon-google-plus\:regular {
+  background-position: 0 -50px;
+}
+
+.icon-pinterest,
+.icon-pinterest\:regular {
+  background-position: 0 -75px;
+}
+
+.icon-rss,
+.icon-rss\:regular {
+  background-position: 0 -100px;
+}
+
+.icon-twitter,
+.icon-twitter\:regular{
+  background-position: 0 -125px;
+}
+*/
+// [END] Social Media Icons Sprite
+
+/**
+	Style for Social Links Top
+*/
+.social-links-top {
+	height: 66px;
+	line-height: 66px;
+	vertical-align: center;
+    @include respond-to-max( xs-small-screens ) {
+        display: none;
+    }
+	.socials-sprite {
+		float: right;
+	}
+}

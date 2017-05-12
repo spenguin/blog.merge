@@ -1,0 +1,32 @@
+/**
+  Colours
+ */
+// Main Colors
+$color-midblue: #0093d1;
+$color-darkblue: #0269a0;
+$color-lightgreen: #ecf9d3;
+$color-green: #8dc63f;
+$color-pink: #e1144d;
+$color-lightpink: #ffbebe;
+$color-lightblue: #94d8f3;
+$color-darkgrey: #7f7f7f;
+$color-lightgrey: #eeeeee;
+$color-midgrey: #dbdbdb;
+
+$color-white: #ffffff;
+$color-tooltip-prod-table-bg: #fffadd;
+
+// To be used for dynamic creation of classes
+// for elements with specific background colors
+$colors: (
+        midblue: $color-midblue,
+        darkblue: $color-darkblue,
+        lightgreen: $color-lightgreen,
+        green: $color-green,
+        pink: $color-pink,
+        lightpink: $color-lightpink,
+        lightblue: $color-lightblue,
+        darkgrey: $color-darkgrey,
+        lightgrey: $color-lightgrey,
+        midgrey: $color-midgrey
+);

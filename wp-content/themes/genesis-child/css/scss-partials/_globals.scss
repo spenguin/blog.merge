@@ -1,0 +1,55 @@
+// For Responsiveness
+
+// "XS Mini" is rarely used - good for iPhone devices (portrait)
+// If "XS" is also used, the "XS Mini" has priority
+// if for instance the width of the screen is 320px
+
+// XS Mini - 0-399px
+// XS - 0-767px
+// Small - 768px-991px
+// Medium - 992px-1199px
+// Large - 1200px+
+$break-large: 1200px;
+$break-medium: 992px;
+$break-small: 768px;
+$break-mini: 400px;
+
+// Section - Common Elements (carrot arrow below the section)
+$section-arrow-size-large: 18px;
+$section-arrow-size-small: 12px;
+
+// Section Padding
+// They are also used on Unique Search Results from "Search Box 3"
+$section-padding-large: 80px; // Large: Desktop
+$section-padding-xs: ($section-padding-large / 2); // Mobile: iPhone
+$section-padding-small: $section-padding-xs + ($section-padding-xs / 2); // Small: iPad Portrait
+
+// Headlines (standards)
+$h2-size: 52px; // Large & Medium Screens
+//$h2-size-small: 46px; // Small Screens
+//$h2-size-xs: 28px; // XS Screens
+
+$font-small-size: 14px;
+
+// Sections (Font Sizes and Line-Height)
+//@import "_mixins.scss";
+
+// Do not include the font in files such as `page-domain-name-pricing.min.css`, `page-gtld-pricing.min.css` etc.
+// as the font-face is already included in app.built.css
+/*@if variable-exists(hegNoFontInclusion) {
+} @else {
+  @include font-face('depot-new-web');
+}*/
+
+// The main font used on the website
+$font-family: 'depot-new-web', 'Varela Round', sans-serif;
+
+body {
+	font-family: $font-family;
+}
+
+//@include font-face( 'font-awesome' );
+
+// NOTE: To maximize the performance and have a lighter file it's good to one shorthand CSS whenever possible
+// For margins and paddings, it's good to write less code
+// See more information here: http://www.w3schools.com/css/css_padding.asp

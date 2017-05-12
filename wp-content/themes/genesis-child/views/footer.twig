@@ -1,0 +1,14 @@
+{# Footer Twig #}
+	<div class="call-to-action">
+		<p><a href="">Want to contribute to the 123 Reg Blog?</a></p>
+		<p class="subscribe"><a href="">Never miss an update: Subscribe to our RSS feed Privacy Policy.</a></p>
+	</div>
+	<div class="links">
+	    {% for item in menu.get_items %}
+                <a href="{{item.get_link}}">{{item.title}}</a>
+	    {% endfor %}
+
+	    <div class="social-links">
+			{% include "social-links.twig" %}
+		</div>
+	</div>

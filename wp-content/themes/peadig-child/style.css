@@ -1,0 +1,21 @@
+/*
+Theme Name:     Peadig Child Theme for Peadig
+Theme URI:      http://peadig.com/
+Description:    Child theme for Peadig, a WordPress theme framework
+Author:         Peadig
+Author URI:     http://peadig.com
+Template:       peadig
+Version:        1.0
+*/
+
+/****************
+DO NOT DELETE THE LINE BELOW
+OTHERWISE YOUR THEME WILL NOT WORK!
+****************/
+
+@import url("../peadig/style.css");
+
+/****************
+OKAY, HAPPY CSS'ING!
+****************/
+

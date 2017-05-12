@@ -1,0 +1,19 @@
+{# loop.twig #}
+
+<h1>Featured Posts</h1>
+    {% for post in posts  %}
+    	<article class="featured-post">
+            <div class="fp-wrapper">
+        		{% if post.thumbnail.src is empty %}
+        			<div class="text no-thumbnail">
+        		{% else %}
+        			<img src="{{post.thumbnail.src|resize(120, 120)}}" alt="{{ post.title }}" />
+        			<div class="text">
+        		{% endif %}
+        			<h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
+        			<p class="credit">By {{ post.author.name }} - {{ post.published_at|date("F j Y") }}</p>
+        			<p>{{ post.content|excerpt(30) }}</p>
+        		</div>
+            </div>
+    	</article>
+	{% endfor %}

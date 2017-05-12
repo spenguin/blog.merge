@@ -1,0 +1,95 @@
+/**
+	Footer styling
+*/
+footer {
+	background-color: $color-midblue;
+	color: white;
+	padding-top: 26px!important;
+	margin-top: 40px;
+	.wrap {
+		padding-left: $sm-left-padding;
+		padding-right: $sm-right-padding;	
+		max-width: 100%;
+		@include respond-to-max( xs-small-screens ) {
+			padding-left: $xs-left-padding;
+			padding-right: $xs-right-padding;
+		}
+		@include respond-to-above( small-screens ) {
+			padding-left: $md-left-padding;
+			padding-right: $md-right-padding;
+		}
+		@include respond-to-above( medium-screens ) {
+			padding-left: $lg-left-padding;
+			padding-right: $lg-right-padding;
+			max-width: 1200px;
+		}
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+		font-size: 14px;
+		line-height: 1.39em;
+		@include respond-to-above( small-screens ) {
+			font-size: 18px;
+		}
+		&:hover {
+			color: white;
+		}
+	}
+	.subscribe a {
+		font-size: 12px;
+		@include respond-to-above( small-screens ) {
+			font-size: 14px;
+		}		
+	}
+	.call-to-action {
+		padding-left: 0;
+		width: 50%;
+		float: left;
+		@include respond-to-max( xs-small-screens ) {
+			width: 100%;
+			text-align: center;
+			float: none;
+		}
+	}
+	.links {
+		text-align: right;
+		padding-right: 0;
+		width: 50%;
+		float: right;
+		@include respond-to-max( xs-small-screens ) {
+			width: 100%;
+			text-align: center;
+			float: none;
+		}
+		a {
+			margin-left: 10px;
+			@include respond-to-above( medium-screens ) {
+				margin-left: 26px;
+			}			
+		}
+		.social-links {
+			ul {
+				float: right;
+				margin-right: 9px;
+				margin-top: 20px;
+				@include respond-to-max( xs-small-screens ) {
+					float: none;
+					text-align: center;
+					margin-right: 0;
+				}
+				@include respond-to-above( medium-screens ) {
+					margin-right: 27px;
+				}
+			}
+		}
+	}
+}
+.copyright {
+	background-color: $color-darkblue;
+	height: 48px;
+	line-height: 48px;
+	font-size: 16px;
+	color: white;
+}

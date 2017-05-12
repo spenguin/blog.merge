@@ -1,0 +1,50 @@
+/**
+	Structure styles
+*/
+.site-inner {
+	padding-left: $sm-left-padding;
+	padding-right: $sm-right-padding;
+	max-width: 100%;
+	@include respond-to-max( xs-small-screens ) {
+		padding-left: $xs-left-padding;
+		padding-right: $xs-right-padding;
+	}
+	@include respond-to-above( small-screens ) {
+		padding-left: $md-left-padding;
+		padding-right: $md-left-padding;
+	}
+	@include respond-to-above( medium-screens ) {
+		padding-left: $lg-left-padding;
+		padding-right: $lg-right-padding;
+		max-width: 1200px;
+	}
+	.wrap {
+		padding: 0;
+		max-width: 100%;
+		main {
+			@include main-width-calc( $sm-gutter, $sm-aside-width );
+			@include respond-to-max( xs-small-screens ) {
+				width: 100%;
+				padding-top: 20px;
+			}			
+			@include respond-to-above( small-screens ) {
+				@include main-width-calc( $md-gutter, $md-aside-width );
+			}
+			@include respond-to-above( medium-screens ) {
+				@include main-width-calc( $lg-gutter, $lg-aside-width );
+			}
+		}
+		aside {
+			width: $sm-aside-width;
+			@include respond-to-max( xs-small-screens ) {
+				display:none;
+			}
+			@include respond-to-above( small-screens ) {
+				width: $md-aside-width;
+			}
+			@include respond-to-above( medium-screens ) {
+				width: $lg-aside-width;
+			}
+		}		
+	}
+}

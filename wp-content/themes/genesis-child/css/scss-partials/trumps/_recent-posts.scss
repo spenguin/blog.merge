@@ -1,0 +1,65 @@
+/**
+	Recent Post sidebar styles
+*/
+.sidebar .widget-wrap {
+	.rpwe-li {
+		border-bottom: 1px dotted $color-darkgrey;
+		padding-bottom: 12px;
+		margin-bottom: 12px;
+		.rpwe-img {
+			float: left;
+			margin-right: 9%;
+			width: 28.5%;
+			@include respond-to-above( small-screens ) {
+				width: 18.75%;
+				margin-right: 6.5%;
+			}
+			@include respond-to-above( medium-screens ) {
+				width: 16%;
+				max-width: 60px;
+				margin-right: 5.6%;
+			}
+			.rpwe-thumb {
+			    border: none!important;
+			    box-shadow: none !important;
+			    margin: 0;
+			    padding: 0!important;
+			}
+		}
+		.rpwe-title {
+	//		float: left;
+			margin-bottom: 0;
+			line-height: 18px;
+			width: 62.5%;
+			@include respond-to-above( small-screens ) {
+				width: 100%; //74.75%;
+			}
+			@include respond-to-above( medium-screens ) {
+				width: 100%; //78.4%
+			}
+			a {
+				font-size: 16px;
+				color: $color-midblue;
+				font-weight: normal;
+				text-decoration: none;
+				span {
+					font-weight: bold;
+					display: block;
+				}	
+				&:hover {
+					color: $color-midblue;
+					text-decoration: none; 
+				}	
+			}
+		}
+		time {
+			font-size: 14px;
+			color: $color-darkgrey;
+			clear: both;
+			line-height: 12px;
+		}
+	}
+	.rpwe-clearfix::before, .rpwe-clearfix::after {
+	    content: ""!important;
+	}	
+}

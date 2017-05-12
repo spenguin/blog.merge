@@ -1,0 +1,15 @@
+/**
+  Fonts
+ */
+ @font-face {
+    font-family: 'depot-new-web';
+    src: url('DepotNew-Regular.eot');
+    src: url('DepotNew-Regular.eot?#iefix') format('embedded-opentype'),
+         url('DepotNew-Regular.woff') format('woff'),
+         url('DepotNew-Regular.ttf') format('truetype'),
+         url('DepotNew-Regular.svg#Sri-TSCRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import "font-awesome/font-awesome";
